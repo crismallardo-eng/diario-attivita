@@ -62,10 +62,12 @@ header p{font-size:.85rem;opacity:.45;margin-top:3px}
 .sub-tag.zero-tag{color:#7f1d1d;background:#180808;border-color:#3b0f0f;font-style:italic}
 .sub-tag.empty-tag{color:#2a2a3a;font-style:italic}
 .cat-count{font-size:.98rem;font-weight:800;width:24px;text-align:right;flex-shrink:0;color:#e4e4f0}
-.cat-item.neglected .cat-name{color:#7f2020}
-.cat-item.neglected .cat-count{color:#7f2020}
-.cat-item.neglected .cat-emoji{opacity:.3}
+.cat-item.cat-neglected .cat-name{color:#7f2020}
+.cat-item.cat-neglected .cat-count{color:#7f2020}
+.cat-item.cat-neglected .cat-emoji{opacity:.3}
 .neglect-badge{font-size:.6rem;color:#991b1b;background:#180808;border:1px solid #3b0f0f;border-radius:99px;padding:1px 6px;margin-left:6px;vertical-align:middle;font-style:normal}
+.sub-tag.stale{color:#f87171;background:#2a1010;border-color:#5b1818;font-weight:700}
+.sub-tag.stale:hover{background:#3a1818;color:#fda4af;border-color:#7c2424}
 
 .wg-row{display:flex;align-items:flex-start;gap:14px;padding:13px 0;border-bottom:1px solid #1a1a22}
 .wg-row:last-child{border-bottom:none}
@@ -143,7 +145,7 @@ header p{font-size:.85rem;opacity:.45;margin-top:3px}
 .filter-btn .dot{width:7px;height:7px;border-radius:50%;background:#3b0f0f;transition:background .2s;flex-shrink:0}
 .filter-btn.active .dot{background:#f87171}
 .filter-count{font-size:.72rem;color:#555;margin-left:auto}
-.cat-list.neglect-filter .cat-item:not(.neglected){display:none}
+.cat-list.neglect-filter .cat-item:not(.neglect-eligible){display:none}
 
 .loading{text-align:center;padding:80px 20px;color:#555;font-size:.9rem}
 
@@ -311,13 +313,28 @@ function getCatEmoji(c){
 }
 
 function computeLastSeen(){
-  var ls={};
+  var ls={}, lss={};
   ALL_CATS.forEach(function(c){ls[c]=null;});
   FULL_LOG.forEach(function(e){
     if(ls[e.categoria]===undefined) return;
     if(!ls[e.categoria]||e.data>ls[e.categoria]) ls[e.categoria]=e.data;
+    if(e.sottocategoria){
+      var k=e.categoria+'||'+e.sottocategoria;
+      if(!lss[k]||e.data>lss[k]) lss[k]=e.data;
+    }
   });
+  LAST_SEEN_SUB = lss;
   return ls;
+}
+var LAST_SEEN_SUB = {};
+function subDaysAgo(cat, sub){
+  var ls = LAST_SEEN_SUB[cat+'||'+sub];
+  if(!ls) return null;
+  return Math.floor((new Date()-new Date(ls))/86400000);
+}
+function isSubStale(cat, sub){
+  var d = subDaysAgo(cat, sub);
+  return d===null || d>7;
 }
 
 function getEntries(){
@@ -349,30 +366,50 @@ function renderCatRow(cat,stats){
   var n=stats.ct[cat]||0, pct=Math.round((n/stats.max)*100);
   var col=getCatColor(cat), em=getCatEmoji(cat);
   var sc=stats.sc[cat]||{}, subHtml='';
-  var showZ=(cat==='Letture'||cat==='Visioni');
-  var neglected=false, neglectBadge='';
+  var showAllDefSubs=(cat==='Letture'||cat==='Visioni');
+  // Cat-level neglect
+  var catNeglected=false, neglectBadge='';
   var ls=LAST_SEEN[cat];
   if(!ls){
-    neglected=true;
+    catNeglected=true;
     neglectBadge='<span class="neglect-badge">mai fatto</span>';
   } else {
     var daysAgo=Math.floor((new Date()-new Date(ls))/86400000);
-    if(daysAgo>7){ neglected=true; neglectBadge='<span class="neglect-badge">'+daysAgo+'gg fa</span>'; }
+    if(daysAgo>7){ catNeglected=true; neglectBadge='<span class="neglect-badge">'+daysAgo+'gg fa</span>'; }
   }
-  if(showZ && CAT_DEF[cat]){
-    CAT_DEF[cat].forEach(function(s){
-      var sn=sc[s]||0;
-      subHtml+=sn>0
-        ?'<span class="sub-tag clickable" data-cat="'+esc(cat)+'" data-sub="'+esc(s)+'" onclick="openModal(this)">'+esc(s)+' &times;'+sn+'</span>'
-        :'<span class="sub-tag zero-tag">'+esc(s)+'</span>';
-    });
+  // Costruzione sotto-tag (con info "stale" per sotto-attività non fatte da >7gg)
+  var defSubs = CAT_DEF[cat] || [];
+  var hasStaleSubs = false;
+  function renderSubTag(s){
+    var sn = sc[s] || 0;
+    var stale = isSubStale(cat, s);
+    if(stale) hasStaleSubs = true;
+    var d = subDaysAgo(cat, s);
+    if(sn > 0){
+      var cls = stale ? ' stale' : '';
+      var badge = stale ? ' &middot; '+d+'gg' : '';
+      return '<span class="sub-tag clickable'+cls+'" data-cat="'+esc(cat)+'" data-sub="'+esc(s)+'" onclick="openModal(this)">'+esc(s)+' &times;'+sn+badge+'</span>';
+    } else {
+      var label = d===null ? esc(s) : esc(s)+' &middot; '+d+'gg';
+      return '<span class="sub-tag zero-tag">'+label+'</span>';
+    }
+  }
+  if(showAllDefSubs){
+    defSubs.forEach(function(s){ subHtml += renderSubTag(s); });
   } else {
+    var doneSet = {};
     Object.keys(sc).sort(function(a,b){return sc[b]-sc[a];}).forEach(function(s){
-      subHtml+='<span class="sub-tag clickable" data-cat="'+esc(cat)+'" data-sub="'+esc(s)+'" onclick="openModal(this)">'+esc(s)+' &times;'+sc[s]+'</span>';
+      doneSet[s] = true;
+      subHtml += renderSubTag(s);
+    });
+    // Aggiungi sotto-attività non viste in questo periodo ma trascurate (stale)
+    defSubs.forEach(function(s){
+      if(!doneSet[s] && isSubStale(cat, s)) subHtml += renderSubTag(s);
     });
     if(!subHtml) subHtml='<span class="sub-tag empty-tag">&mdash;</span>';
   }
-  var itemCls='cat-item'+(neglected?' neglected':'');
+  var anyNeglected = catNeglected || hasStaleSubs;
+  var itemCls = 'cat-item' + (catNeglected?' cat-neglected':'') + (anyNeglected?' neglect-eligible':'');
   return '<div class="'+itemCls+'"><div class="cat-emoji">'+em+'</div><div class="cat-info"><div class="cat-name">'+esc(cat)+neglectBadge+'</div><div class="cat-bar-wrap"><div class="cat-bar" style="width:'+pct+'%;background:'+col+'"></div></div><div class="sub-tags">'+subHtml+'</div></div><div class="cat-count">'+n+'</div></div>';
 }
 function renderCatList(cats,stats){ return cats.map(function(c){return renderCatRow(c,stats);}).join(''); }
@@ -569,7 +606,7 @@ function applyNeglectFilter(){
     var el=document.getElementById(id);
     if(el) el.classList.toggle('neglect-filter',S.neglectOnly);
   });
-  var total=document.querySelectorAll('.cat-item.neglected').length;
+  var total=document.querySelectorAll('.cat-item.neglect-eligible').length;
   document.getElementById('neglect-count').textContent=total?' ('+total+')':'';
 }
 
