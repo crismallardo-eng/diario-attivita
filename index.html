@@ -287,6 +287,16 @@ var _t = new Date();
 var S = { view:'month', year:_t.getFullYear(), month:_t.getMonth()+1, tab:'tutto', neglectOnly:false };
 var charts = {};
 
+// Categorie prioritarie (vanno per prime, in ordine) e soglie neglect personalizzate
+var PRIORITY_CATS = ['Palestra/Attività fisica', 'Concorsi'];
+var NEGLECT_THRESHOLDS = {'Palestra/Attività fisica': 3, 'Concorsi': 2};
+function getThreshold(cat){ return NEGLECT_THRESHOLDS[cat] !== undefined ? NEGLECT_THRESHOLDS[cat] : 7; }
+function reorderCats(cats){
+  var prio = PRIORITY_CATS.filter(function(c){return cats.indexOf(c)>=0;});
+  var rest = cats.filter(function(c){return PRIORITY_CATS.indexOf(c)<0;});
+  return prio.concat(rest);
+}
+
 function pad(n){ return String(n).padStart(2,'0'); }
 function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 function getCatColor(c){
@@ -334,7 +344,7 @@ function subDaysAgo(cat, sub){
 }
 function isSubStale(cat, sub){
   var d = subDaysAgo(cat, sub);
-  return d===null || d>7;
+  return d===null || d > getThreshold(cat);
 }
 
 function getEntries(){
@@ -375,9 +385,9 @@ function renderCatRow(cat,stats){
     neglectBadge='<span class="neglect-badge">mai fatto</span>';
   } else {
     var daysAgo=Math.floor((new Date()-new Date(ls))/86400000);
-    if(daysAgo>7){ catNeglected=true; neglectBadge='<span class="neglect-badge">'+daysAgo+'gg fa</span>'; }
+    if(daysAgo>getThreshold(cat)){ catNeglected=true; neglectBadge='<span class="neglect-badge">'+daysAgo+'gg fa</span>'; }
   }
-  // Costruzione sotto-tag (con info "stale" per sotto-attività non fatte da >7gg)
+  // Costruzione sotto-tag (con info "stale" per sotto-attività non fatte da >soglia)
   var defSubs = CAT_DEF[cat] || [];
   var hasStaleSubs = false;
   function renderSubTag(s){
@@ -575,9 +585,9 @@ function render(){
   if(!isAll) renderCalendar(entries,S.year,S.month);
   else updateTimeline();
 
-  document.getElementById('content-tutto').innerHTML=renderCatList(ALL_CATS,stats);
-  document.getElementById('content-libero').innerHTML=renderCatList(ML,stats);
-  document.getElementById('content-misero').innerHTML=renderCatList(MM,stats);
+  document.getElementById('content-tutto').innerHTML=renderCatList(reorderCats(ALL_CATS),stats);
+  document.getElementById('content-libero').innerHTML=renderCatList(reorderCats(ML),stats);
+  document.getElementById('content-misero').innerHTML=renderCatList(reorderCats(MM),stats);
 
   if(S.tab==='obiettivi') renderObj(entries,stats,isAll);
   applyNeglectFilter();
