@@ -426,8 +426,10 @@ function renderCatRow(cat,stats){
   function renderSubTag(s){
     var sn = sc[s] || 0;
     var stale = isSubStale(cat, s);
-    if(stale) hasStaleSubs = true;
+    // "Eligible per recupero" solo se la sub è stata fatta in passato ma trascurata
+    // Le mai-fatte (subDaysAgo===null) sono visualmente segnate ma non triggerano filtro
     var d = subDaysAgo(cat, s);
+    if(stale && d !== null) hasStaleSubs = true;
     if(sn > 0){
       var cls = stale ? ' stale' : '';
       var badge = stale ? ' &middot; '+d+'gg' : '';
