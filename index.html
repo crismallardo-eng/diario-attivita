@@ -146,6 +146,23 @@ header p{font-size:.85rem;opacity:.45;margin-top:3px}
 .filter-btn.active .dot{background:#f87171}
 .filter-count{font-size:.72rem;color:#555;margin-left:auto}
 .cat-list.neglect-filter .cat-item:not(.neglect-eligible){display:none}
+.filter-btn.search-btn{border-color:#2a2a3a;color:#888}
+.filter-btn.search-btn:hover{border-color:#7c3aed;color:#c4b5fd}
+
+/* SEARCH MODAL */
+.search-input{width:100%;background:#0d0d12;border:1px solid #2a2a3a;border-radius:10px;padding:10px 14px;color:#e4e4f0;font-size:.92rem;font-family:inherit;outline:none;transition:border-color .15s;margin-bottom:14px}
+.search-input:focus{border-color:#7c3aed}
+.search-hint{font-size:.7rem;color:#444;margin-top:-8px;margin-bottom:14px}
+.search-results{max-height:60vh;overflow-y:auto}
+.search-result{display:flex;gap:10px;padding:9px 0;border-bottom:1px solid #0f0f16;align-items:flex-start}
+.search-result:last-child{border-bottom:none}
+.search-res-date{font-size:.72rem;color:#3a3a4a;min-width:62px;flex-shrink:0;padding-top:2px}
+.search-res-body{flex:1;min-width:0}
+.search-res-cat{font-size:.65rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#666}
+.search-res-note{font-size:.84rem;color:#c8c8d8;line-height:1.35;margin-top:2px;word-wrap:break-word}
+.search-res-empty-note{font-size:.78rem;color:#3a3a4a;font-style:italic;margin-top:2px}
+.search-summary{font-size:.72rem;color:#555;margin-bottom:10px}
+.search-hl{background:#3d2a08;color:#fbbf24;padding:0 2px;border-radius:2px}
 
 .loading{text-align:center;padding:80px 20px;color:#555;font-size:.9rem}
 
@@ -193,6 +210,9 @@ footer{text-align:center;font-size:.68rem;color:#222;margin-top:24px}
 <div class="filter-bar">
   <button class="filter-btn" id="btn-neglect" onclick="toggleNeglect()">
     <span class="dot"></span>Da recuperare<span id="neglect-count"></span>
+  </button>
+  <button class="filter-btn search-btn" onclick="openSearch()">
+    &#128269; Cerca
   </button>
 </div>
 
@@ -271,6 +291,19 @@ footer{text-align:center;font-size:.68rem;color:#222;margin-top:24px}
       <button class="modal-close" onclick="closeModal()">&#10005;</button>
     </div>
     <div id="modal-body"></div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="search-modal" onclick="closeSearch(event)">
+  <div class="modal-box">
+    <div class="modal-header">
+      <div><div class="modal-cat">Ricerca</div><div class="modal-sub">Cerca in note e categorie</div></div>
+      <button class="modal-close" onclick="closeSearch()">&#10005;</button>
+    </div>
+    <input type="text" class="search-input" id="search-input" placeholder="es. soprano, palestra, conan..." oninput="runSearch()" onkeydown="if(event.key==='Escape')closeSearch()">
+    <div class="search-hint">Cerca in tutte le voci del diario, ordinate dalla più recente</div>
+    <div class="search-summary" id="search-summary"></div>
+    <div class="search-results" id="search-results"></div>
   </div>
 </div>
 
@@ -665,7 +698,53 @@ function closeModal(e){
   if(!e||e.target===document.getElementById('modal'))
     document.getElementById('modal').classList.remove('open');
 }
-document.addEventListener('keydown',function(e){if(e.key==='Escape')closeModal();});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'){closeModal();closeSearch();}});
+
+// ── SEARCH ───────────────────────────────────────────────────
+function openSearch(){
+  document.getElementById('search-modal').classList.add('open');
+  var inp = document.getElementById('search-input');
+  inp.value = '';
+  document.getElementById('search-results').innerHTML = '';
+  document.getElementById('search-summary').textContent = '';
+  setTimeout(function(){ inp.focus(); }, 50);
+}
+function closeSearch(e){
+  if(!e || e.target===document.getElementById('search-modal') || e.type==='click')
+    document.getElementById('search-modal').classList.remove('open');
+}
+function highlightMatch(text, q){
+  if(!q) return esc(text);
+  var lower = text.toLowerCase(), ql = q.toLowerCase();
+  var out = '', i = 0;
+  while(true){
+    var idx = lower.indexOf(ql, i);
+    if(idx < 0){ out += esc(text.substring(i)); break; }
+    out += esc(text.substring(i, idx)) + '<span class="search-hl">' + esc(text.substring(idx, idx+q.length)) + '</span>';
+    i = idx + q.length;
+  }
+  return out;
+}
+function runSearch(){
+  var q = document.getElementById('search-input').value.trim();
+  var results = document.getElementById('search-results');
+  var summary = document.getElementById('search-summary');
+  if(q.length < 2){ results.innerHTML = ''; summary.textContent = q.length===1?'Digita almeno 2 caratteri':''; return; }
+  var ql = q.toLowerCase();
+  var matches = FULL_LOG.filter(function(e){
+    return (e.note||'').toLowerCase().indexOf(ql) >= 0
+        || (e.categoria||'').toLowerCase().indexOf(ql) >= 0
+        || (e.sottocategoria||'').toLowerCase().indexOf(ql) >= 0;
+  }).sort(function(a,b){ return b.data.localeCompare(a.data); });
+  summary.textContent = matches.length + ' ' + (matches.length===1?'risultato':'risultati');
+  if(!matches.length){ results.innerHTML = '<div style="padding:20px 0;color:#3a3a4a;font-style:italic;text-align:center">Nessuna voce trovata.</div>'; return; }
+  results.innerHTML = matches.map(function(e){
+    var p = e.data.split('-');
+    var catLine = highlightMatch(e.categoria, q) + (e.sottocategoria ? ' &middot; ' + highlightMatch(e.sottocategoria, q) : '');
+    var noteLine = e.note ? '<div class="search-res-note">' + highlightMatch(e.note, q) + '</div>' : '<div class="search-res-empty-note">nessuna nota</div>';
+    return '<div class="search-result"><div class="search-res-date">'+p[2]+'/'+p[1]+'/'+p[0]+'</div><div class="search-res-body"><div class="search-res-cat">'+catLine+'</div>'+noteLine+'</div></div>';
+  }).join('');
+}
 
 // CARICAMENTO INIZIALE
 fetch('diario_attivita.json?_=' + Date.now())
