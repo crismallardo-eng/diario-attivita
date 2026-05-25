@@ -43,6 +43,24 @@ header p{font-size:.85rem;opacity:.45;margin-top:3px}
 .tab.active{background:#1e1b3a;border-color:#7c3aed;color:#e4e4f0}
 .tab.t-misero.active{background:#2a1515;border-color:#ef4444}
 .tab.t-obiettivi.active{background:#0d2318;border-color:#10b981}
+.tab.t-wishlist.active{background:#231a08;border-color:#eab308;color:#fde68a}
+
+/* WISHLIST */
+.wl-section{margin-bottom:24px}
+.wl-section-title{font-size:.95rem;font-weight:800;color:#e4e4f0;margin-bottom:4px;display:flex;align-items:center;gap:8px}
+.wl-section-icon{font-size:1.2rem}
+.wl-section-summary{font-size:.7rem;color:#444;margin-bottom:12px}
+.wl-group{margin-bottom:14px}
+.wl-group-title{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:#666;margin-bottom:8px}
+.wl-items{display:flex;flex-direction:column;gap:6px}
+.wl-item{display:flex;align-items:center;gap:10px;padding:8px 12px;border-radius:9px;background:#1a1a22;border:1px solid #252535;transition:all .15s}
+.wl-item.done{background:#0a1f14;border-color:#14532d}
+.wl-checkbox{width:18px;height:18px;border-radius:5px;border:2px solid #444;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:.8rem;color:transparent;font-weight:900}
+.wl-item.done .wl-checkbox{background:#16a34a;border-color:#16a34a;color:#fff}
+.wl-name{flex:1;font-size:.88rem;color:#c8c8d8}
+.wl-item.done .wl-name{color:#666;text-decoration:line-through}
+.wl-meta{font-size:.7rem;color:#3a3a4a}
+.wl-empty{font-size:.78rem;color:#3a3a4a;font-style:italic;padding:10px 0;text-align:center}
 
 .section-label{font-size:.68rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:#333;margin:22px 0 10px 4px}
 .card{background:#16161f;border:1px solid rgba(255,255,255,.06);border-radius:14px;padding:20px 22px;margin-bottom:14px}
@@ -205,6 +223,7 @@ footer{text-align:center;font-size:.68rem;color:#222;margin-top:24px}
   <button class="tab"                   onclick="switchTab('libero',this)">&#9728;&#65039; Tempo libero</button>
   <button class="tab t-misero"          onclick="switchTab('misero',this)">&#128548; Tempo misero</button>
   <button class="tab t-obiettivi"       onclick="switchTab('obiettivi',this)">&#127919; Obiettivi</button>
+  <button class="tab t-wishlist"        onclick="switchTab('wishlist',this)">&#11088; Wishlist</button>
 </div>
 
 <div class="filter-bar">
@@ -263,6 +282,19 @@ footer{text-align:center;font-size:.68rem;color:#222;margin-top:24px}
   </div>
 </div>
 
+<div id="sec-wishlist" style="display:none">
+  <div class="wl-section">
+    <div class="wl-section-title"><span class="wl-section-icon">&#128722;</span>Acquisti</div>
+    <div class="wl-section-summary" id="wl-acquisti-summary"></div>
+    <div id="wl-acquisti"></div>
+  </div>
+  <div class="wl-section">
+    <div class="wl-section-title"><span class="wl-section-icon">&#127869;&#65039;</span>Locali</div>
+    <div class="wl-section-summary" id="wl-locali-summary"></div>
+    <div id="wl-locali"></div>
+  </div>
+</div>
+
 <div id="sec-cal">
   <div class="section-label" id="cal-label">Calendario</div>
   <div class="card">
@@ -309,7 +341,7 @@ footer{text-align:center;font-size:.68rem;color:#222;margin-top:24px}
 
 <script>
 // Variabili dati (popolate dopo fetch)
-var FULL_LOG, CAT_DEF, ML, MM, OBJ_SETT, OBJ_MENS, ALL_CATS, LAST_SEEN;
+var FULL_LOG, CAT_DEF, ML, MM, OBJ_SETT, OBJ_MENS, ALL_CATS, LAST_SEEN, WISHLIST;
 var MONTH_NAMES = ['','Gennaio','Febbraio','Marzo','Aprile','Maggio','Giugno','Luglio','Agosto','Settembre','Ottobre','Novembre','Dicembre'];
 var MONTH_SH    = ['','Gen','Feb','Mar','Apr','Mag','Giu','Lug','Ago','Set','Ott','Nov','Dic'];
 var VIS_COLORS  = ['#a78bfa','#7c3aed','#4c1d95','#c4b5fd','#6d28d9'];
@@ -673,11 +705,16 @@ function switchTab(tab,btn){
   S.tab=tab;
   document.querySelectorAll('.tab').forEach(function(b){b.classList.remove('active');});
   btn.classList.add('active');
-  ['tutto','libero','misero','obiettivi'].forEach(function(t){
+  ['tutto','libero','misero','obiettivi','wishlist'].forEach(function(t){
     var el=document.getElementById('sec-'+t);
     if(el) el.style.display=(t===tab)?'':'none';
   });
+  // Calendario/Timeline nascosti nella tab wishlist
+  document.getElementById('sec-cal').style.display = (tab==='wishlist' || S.view==='all') ? 'none' : '';
+  var timelineEl = document.getElementById('sec-timeline');
+  if(timelineEl) timelineEl.style.display = (tab==='wishlist') ? 'none' : (S.view==='all' ? '' : 'none');
   if(tab==='obiettivi'){var e=getEntries();renderObj(e,computeStats(e),S.view==='all');}
+  if(tab==='wishlist') renderWishlist();
 }
 
 function openModal(el){
@@ -701,6 +738,36 @@ function closeModal(e){
     document.getElementById('modal').classList.remove('open');
 }
 document.addEventListener('keydown',function(e){if(e.key==='Escape'){closeModal();closeSearch();}});
+
+// ── WISHLIST ─────────────────────────────────────────────────
+function renderWishlistSection(groups){
+  if(!groups || !groups.length) return '<div class="wl-empty">Niente in lista &mdash; aggiungi voci chiedendo a Claude.</div>';
+  return groups.map(function(g){
+    var itemsHtml = (g.items||[]).map(function(it){
+      var doneCls = it.fatto ? ' done' : '';
+      var check = it.fatto ? '&#10003;' : '';
+      var meta = it.fatto && it.data_fatto ? '<span class="wl-meta">'+esc(it.data_fatto)+'</span>' : '';
+      return '<div class="wl-item'+doneCls+'"><div class="wl-checkbox">'+check+'</div><div class="wl-name">'+esc(it.nome)+'</div>'+meta+'</div>';
+    }).join('');
+    return '<div class="wl-group"><div class="wl-group-title">'+esc(g.gruppo)+'</div><div class="wl-items">'+itemsHtml+'</div></div>';
+  }).join('');
+}
+function countWishlist(groups){
+  var done=0, total=0;
+  (groups||[]).forEach(function(g){
+    (g.items||[]).forEach(function(it){ total++; if(it.fatto) done++; });
+  });
+  return {done:done, total:total};
+}
+function renderWishlist(){
+  var acq = WISHLIST.Acquisti || [];
+  var loc = WISHLIST.Locali || [];
+  var ca = countWishlist(acq), cl = countWishlist(loc);
+  document.getElementById('wl-acquisti-summary').textContent = ca.total ? ca.done+' / '+ca.total+' completati' : '';
+  document.getElementById('wl-locali-summary').textContent = cl.total ? cl.done+' / '+cl.total+' visitati' : '';
+  document.getElementById('wl-acquisti').innerHTML = renderWishlistSection(acq);
+  document.getElementById('wl-locali').innerHTML = renderWishlistSection(loc);
+}
 
 // ── SEARCH ───────────────────────────────────────────────────
 function openSearch(){
@@ -758,6 +825,7 @@ fetch('diario_attivita.json?_=' + Date.now())
     MM       = data.macro_gruppi['Tempo misero'];
     OBJ_SETT = data.obiettivi_settimanali;
     OBJ_MENS = data.obiettivi_mensili;
+    WISHLIST = data.wishlist || {Acquisti:[], Locali:[]};
     ALL_CATS = ML.concat(MM);
     LAST_SEEN = computeLastSeen();
     document.getElementById('gen-date').textContent = 'Generato il ' + new Date().toLocaleDateString('it-IT', {day:'numeric', month:'long', year:'numeric'});

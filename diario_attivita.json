@@ -20,6 +20,22 @@
     {"categoria": "Palestra/Attività fisica", "sottocategoria": null, "minimo": 2, "etichetta": "Palestra"},
     {"categoria": "Palestra/Attività fisica", "sottocategoria": "Corsa", "minimo": 1, "etichetta": "Corsa"}
   ],
+  "wishlist": {
+    "Acquisti": [
+      {
+        "gruppo": "Vestiti estivi",
+        "items": [
+          {"nome": "Magliette", "fatto": false},
+          {"nome": "Camicie", "fatto": false},
+          {"nome": "Overshirt", "fatto": false},
+          {"nome": "Pantaloni", "fatto": false},
+          {"nome": "Calzini", "fatto": false},
+          {"nome": "Scarpe", "fatto": false}
+        ]
+      }
+    ],
+    "Locali": []
+  },
   "obiettivi_mensili": [
     {"categoria": "Outdoor", "sottocategoria": "Ristoranti", "minimo": 1, "etichetta": "Ristorante"},
     {"categoria": "Outdoor", "sottocategoria": "Mercati", "minimo": 1, "etichetta": "Mercato ortofrutticolo", "nota": "di sabato"},
