@@ -61,6 +61,22 @@ header p{font-size:.85rem;opacity:.45;margin-top:3px}
 .wl-item.done .wl-name{color:#666;text-decoration:line-through}
 .wl-meta{font-size:.7rem;color:#3a3a4a}
 .wl-empty{font-size:.78rem;color:#3a3a4a;font-style:italic;padding:10px 0;text-align:center}
+.wl-subtabs{display:flex;gap:5px;margin-bottom:14px;flex-wrap:wrap}
+.wl-subtab{padding:7px 14px;border-radius:9px;border:1px solid #2a2a3a;background:#16161f;color:#666;font-size:.78rem;font-weight:600;cursor:pointer;transition:all .15s;display:flex;align-items:center;gap:6px}
+.wl-subtab:hover{border-color:#eab308;color:#aaa}
+.wl-subtab.active{background:#231a08;border-color:#eab308;color:#fde68a}
+.wl-subtab .wl-cnt{font-size:.68rem;opacity:.6;font-weight:600}
+.wl-controls{margin-bottom:14px}
+.wl-section.wl-hidden{display:none}
+.wl-section.wl-hide-done .wl-item.done{display:none}
+.filter-btn.wl-hidedone-btn{border-color:#2a2a3a;color:#888}
+.filter-btn.wl-hidedone-btn:hover{border-color:#16a34a;color:#86efac}
+.filter-btn.wl-hidedone-btn.active{background:#0a1f14;border-color:#16a34a;color:#86efac}
+.filter-btn.wl-hidedone-btn .dot{background:#14532d}
+.filter-btn.wl-hidedone-btn.active .dot{background:#16a34a}
+.search-section-title{font-size:.66rem;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:#555;margin:14px 0 6px;border-bottom:1px solid #1a1a22;padding-bottom:6px}
+.search-result.wl{align-items:center}
+.search-result.wl.done .search-res-note{text-decoration:line-through;color:#555}
 
 .section-label{font-size:.68rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:#333;margin:22px 0 10px 4px}
 .card{background:#16161f;border:1px solid rgba(255,255,255,.06);border-radius:14px;padding:20px 22px;margin-bottom:14px}
@@ -283,25 +299,36 @@ footer{text-align:center;font-size:.68rem;color:#222;margin-top:24px}
 </div>
 
 <div id="sec-wishlist" style="display:none">
-  <div class="wl-section">
+  <div class="wl-subtabs">
+    <button class="wl-subtab active" data-wlsub="acquisti" onclick="switchWishlistSub('acquisti',this)">&#128722; Acquisti <span class="wl-cnt" id="wl-cnt-acquisti"></span></button>
+    <button class="wl-subtab" data-wlsub="locali" onclick="switchWishlistSub('locali',this)">&#127869;&#65039; Locali <span class="wl-cnt" id="wl-cnt-locali"></span></button>
+    <button class="wl-subtab" data-wlsub="luoghi" onclick="switchWishlistSub('luoghi',this)">&#127963;&#65039; Luoghi <span class="wl-cnt" id="wl-cnt-luoghi"></span></button>
+    <button class="wl-subtab" data-wlsub="dafare" onclick="switchWishlistSub('dafare',this)">&#9989; Da fare <span class="wl-cnt" id="wl-cnt-dafare"></span></button>
+  </div>
+  <div class="wl-controls">
+    <button class="filter-btn wl-hidedone-btn" id="btn-wl-hidedone" onclick="toggleWlHideDone()">
+      <span class="dot"></span>Nascondi fatti
+    </button>
+  </div>
+  <div class="wl-section" id="wl-section-acquisti">
     <div class="wl-section-title"><span class="wl-section-icon">&#128722;</span>Acquisti</div>
     <div class="wl-section-summary" id="wl-acquisti-summary"></div>
     <div id="wl-acquisti"></div>
   </div>
-  <div class="wl-section">
+  <div class="wl-section wl-hidden" id="wl-section-locali">
     <div class="wl-section-title"><span class="wl-section-icon">&#127869;&#65039;</span>Locali</div>
     <div class="wl-section-summary" id="wl-locali-summary"></div>
     <div id="wl-locali"></div>
   </div>
-  <div class="wl-section">
-    <div class="wl-section-title"><span class="wl-section-icon">&#9989;</span>Da fare</div>
-    <div class="wl-section-summary" id="wl-dafare-summary"></div>
-    <div id="wl-dafare"></div>
-  </div>
-  <div class="wl-section">
+  <div class="wl-section wl-hidden" id="wl-section-luoghi">
     <div class="wl-section-title"><span class="wl-section-icon">&#127963;&#65039;</span>Luoghi</div>
     <div class="wl-section-summary" id="wl-luoghi-summary"></div>
     <div id="wl-luoghi"></div>
+  </div>
+  <div class="wl-section wl-hidden" id="wl-section-dafare">
+    <div class="wl-section-title"><span class="wl-section-icon">&#9989;</span>Da fare</div>
+    <div class="wl-section-summary" id="wl-dafare-summary"></div>
+    <div id="wl-dafare"></div>
   </div>
 </div>
 
@@ -359,7 +386,7 @@ var LET_COLORS  = ['#f59e0b','#d97706','#b45309','#fcd34d','#78350f'];
 var MUS_COLORS  = ['#3b82f6','#60a5fa','#1d4ed8','#93c5fd','#1e40af'];
 
 var _t = new Date();
-var S = { view:'month', year:_t.getFullYear(), month:_t.getMonth()+1, tab:'tutto', neglectOnly:false };
+var S = { view:'month', year:_t.getFullYear(), month:_t.getMonth()+1, tab:'tutto', neglectOnly:false, wlSub:'acquisti', wlHideDone:false };
 var charts = {};
 
 // Categorie prioritarie (vanno per prime, in ordine) e soglie neglect personalizzate
@@ -783,6 +810,37 @@ function renderWishlist(){
   document.getElementById('wl-locali').innerHTML = renderWishlistSection(loc);
   document.getElementById('wl-dafare').innerHTML = renderWishlistSection(daf);
   document.getElementById('wl-luoghi').innerHTML = renderWishlistSection(luo);
+  // Conteggi nelle sub-tab
+  document.getElementById('wl-cnt-acquisti').textContent = ca.total ? (ca.total-ca.done) : '';
+  document.getElementById('wl-cnt-locali').textContent = cl.total ? (cl.total-cl.done) : '';
+  document.getElementById('wl-cnt-dafare').textContent = cd.total ? (cd.total-cd.done) : '';
+  document.getElementById('wl-cnt-luoghi').textContent = cu.total ? (cu.total-cu.done) : '';
+  // Applica stato sub-tab e hide-done
+  applyWishlistFilters();
+}
+function switchWishlistSub(name, btn){
+  S.wlSub = name;
+  document.querySelectorAll('.wl-subtab').forEach(function(b){b.classList.remove('active');});
+  if(btn) btn.classList.add('active');
+  applyWishlistFilters();
+}
+function toggleWlHideDone(){
+  S.wlHideDone = !S.wlHideDone;
+  applyWishlistFilters();
+}
+function applyWishlistFilters(){
+  // Sub-tab visibility
+  ['acquisti','locali','luoghi','dafare'].forEach(function(s){
+    var el = document.getElementById('wl-section-'+s);
+    if(el){
+      el.classList.toggle('wl-hidden', s !== S.wlSub);
+      el.classList.toggle('wl-hide-done', S.wlHideDone);
+    }
+    var btn = document.querySelector('.wl-subtab[data-wlsub="'+s+'"]');
+    if(btn) btn.classList.toggle('active', s === S.wlSub);
+  });
+  // Toggle button
+  document.getElementById('btn-wl-hidedone').classList.toggle('active', S.wlHideDone);
 }
 
 // ── SEARCH ───────────────────────────────────────────────────
@@ -816,19 +874,48 @@ function runSearch(){
   var summary = document.getElementById('search-summary');
   if(q.length < 2){ results.innerHTML = ''; summary.textContent = q.length===1?'Digita almeno 2 caratteri':''; return; }
   var ql = q.toLowerCase();
+  // Log matches
   var matches = FULL_LOG.filter(function(e){
     return (e.note||'').toLowerCase().indexOf(ql) >= 0
         || (e.categoria||'').toLowerCase().indexOf(ql) >= 0
         || (e.sottocategoria||'').toLowerCase().indexOf(ql) >= 0;
   }).sort(function(a,b){ return b.data.localeCompare(a.data); });
-  summary.textContent = matches.length + ' ' + (matches.length===1?'risultato':'risultati');
-  if(!matches.length){ results.innerHTML = '<div style="padding:20px 0;color:#3a3a4a;font-style:italic;text-align:center">Nessuna voce trovata.</div>'; return; }
-  results.innerHTML = matches.map(function(e){
-    var p = e.data.split('-');
-    var catLine = highlightMatch(e.categoria, q) + (e.sottocategoria ? ' &middot; ' + highlightMatch(e.sottocategoria, q) : '');
-    var noteLine = e.note ? '<div class="search-res-note">' + highlightMatch(e.note, q) + '</div>' : '<div class="search-res-empty-note">nessuna nota</div>';
-    return '<div class="search-result"><div class="search-res-date">'+p[2]+'/'+p[1]+'/'+p[0]+'</div><div class="search-res-body"><div class="search-res-cat">'+catLine+'</div>'+noteLine+'</div></div>';
-  }).join('');
+  // Wishlist matches
+  var wlMatches = [];
+  Object.keys(WISHLIST||{}).forEach(function(sec){
+    (WISHLIST[sec]||[]).forEach(function(g){
+      (g.items||[]).forEach(function(it){
+        if((it.nome||'').toLowerCase().indexOf(ql) >= 0
+           || (g.gruppo||'').toLowerCase().indexOf(ql) >= 0){
+          wlMatches.push({sezione:sec, gruppo:g.gruppo, item:it});
+        }
+      });
+    });
+  });
+  var totalMatches = matches.length + wlMatches.length;
+  summary.textContent = totalMatches + ' ' + (totalMatches===1?'risultato':'risultati');
+  if(!totalMatches){ results.innerHTML = '<div style="padding:20px 0;color:#3a3a4a;font-style:italic;text-align:center">Nessuna voce trovata.</div>'; return; }
+  var html = '';
+  if(wlMatches.length){
+    html += '<div class="search-section-title">&#11088; Wishlist ('+wlMatches.length+')</div>';
+    html += wlMatches.map(function(m){
+      var doneCls = m.item.fatto ? ' done' : '';
+      var check = m.item.fatto ? '&#10003;' : '&#9711;';
+      var dateInfo = m.item.fatto && m.item.data_fatto ? ' &middot; '+m.item.data_fatto : '';
+      var catLine = m.sezione + ' &middot; ' + highlightMatch(m.gruppo, q);
+      return '<div class="search-result wl'+doneCls+'"><div class="search-res-date">'+check+'</div><div class="search-res-body"><div class="search-res-cat">'+catLine+dateInfo+'</div><div class="search-res-note">'+highlightMatch(m.item.nome, q)+'</div></div></div>';
+    }).join('');
+  }
+  if(matches.length){
+    html += '<div class="search-section-title">&#128221; Log attivit&agrave; ('+matches.length+')</div>';
+    html += matches.map(function(e){
+      var p = e.data.split('-');
+      var catLine = highlightMatch(e.categoria, q) + (e.sottocategoria ? ' &middot; ' + highlightMatch(e.sottocategoria, q) : '');
+      var noteLine = e.note ? '<div class="search-res-note">' + highlightMatch(e.note, q) + '</div>' : '<div class="search-res-empty-note">nessuna nota</div>';
+      return '<div class="search-result"><div class="search-res-date">'+p[2]+'/'+p[1]+'/'+p[0]+'</div><div class="search-res-body"><div class="search-res-cat">'+catLine+'</div>'+noteLine+'</div></div>';
+    }).join('');
+  }
+  results.innerHTML = html;
 }
 
 // CARICAMENTO INIZIALE
