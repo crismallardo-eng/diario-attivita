@@ -293,6 +293,11 @@ footer{text-align:center;font-size:.68rem;color:#222;margin-top:24px}
     <div class="wl-section-summary" id="wl-locali-summary"></div>
     <div id="wl-locali"></div>
   </div>
+  <div class="wl-section">
+    <div class="wl-section-title"><span class="wl-section-icon">&#9989;</span>Da fare</div>
+    <div class="wl-section-summary" id="wl-dafare-summary"></div>
+    <div id="wl-dafare"></div>
+  </div>
 </div>
 
 <div id="sec-cal">
@@ -762,11 +767,14 @@ function countWishlist(groups){
 function renderWishlist(){
   var acq = WISHLIST.Acquisti || [];
   var loc = WISHLIST.Locali || [];
-  var ca = countWishlist(acq), cl = countWishlist(loc);
+  var daf = WISHLIST['Da fare'] || [];
+  var ca = countWishlist(acq), cl = countWishlist(loc), cd = countWishlist(daf);
   document.getElementById('wl-acquisti-summary').textContent = ca.total ? ca.done+' / '+ca.total+' completati' : '';
   document.getElementById('wl-locali-summary').textContent = cl.total ? cl.done+' / '+cl.total+' visitati' : '';
+  document.getElementById('wl-dafare-summary').textContent = cd.total ? cd.done+' / '+cd.total+' completati' : '';
   document.getElementById('wl-acquisti').innerHTML = renderWishlistSection(acq);
   document.getElementById('wl-locali').innerHTML = renderWishlistSection(loc);
+  document.getElementById('wl-dafare').innerHTML = renderWishlistSection(daf);
 }
 
 // ── SEARCH ───────────────────────────────────────────────────

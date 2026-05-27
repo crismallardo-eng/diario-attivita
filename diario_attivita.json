@@ -32,9 +32,23 @@
           {"nome": "Calzini", "fatto": false},
           {"nome": "Scarpe", "fatto": false}
         ]
+      },
+      {
+        "gruppo": "Cucina",
+        "items": [
+          {"nome": "Kit cold brew", "fatto": false}
+        ]
       }
     ],
-    "Locali": []
+    "Locali": [],
+    "Da fare": [
+      {
+        "gruppo": "Cura personale",
+        "items": [
+          {"nome": "Tagliarsi i capelli", "fatto": false}
+        ]
+      }
+    ]
   },
   "obiettivi_mensili": [
     {"categoria": "Outdoor", "sottocategoria": "Ristoranti", "minimo": 1, "etichetta": "Ristorante"},
