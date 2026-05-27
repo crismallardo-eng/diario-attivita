@@ -40,7 +40,51 @@
         ]
       }
     ],
-    "Locali": [],
+    "Locali": [
+      {
+        "gruppo": "Sesto Fiorentino",
+        "items": [
+          {"nome": "La Bottega del Pesce di Leonardo", "fatto": false},
+          {"nome": "Casa Barone", "fatto": false},
+          {"nome": "Bottega di Morello", "fatto": false},
+          {"nome": "Aqaba", "fatto": false},
+          {"nome": "Ulivo Rosso (€35–60)", "fatto": false},
+          {"nome": "Blend", "fatto": false},
+          {"nome": "Ghevido", "fatto": false},
+          {"nome": "Osteria Ciccio Pennello (carne)", "fatto": false},
+          {"nome": "Verderame", "fatto": false},
+          {"nome": "Agriturismo Casa La Valle", "fatto": false},
+          {"nome": "Trattoria Piccolo Trianon", "fatto": false},
+          {"nome": "Miho Sushi", "fatto": false},
+          {"nome": "La Scala Bar Trattoria", "fatto": false},
+          {"nome": "Ukiyo", "fatto": false},
+          {"nome": "Le Fornaci", "fatto": false},
+          {"nome": "Trattoria I Ricchi", "fatto": false}
+        ]
+      },
+      {
+        "gruppo": "Firenze",
+        "items": [
+          {"nome": "Del Fagioli", "fatto": false},
+          {"nome": "Da Burde", "fatto": false},
+          {"nome": "Zeb", "fatto": false},
+          {"nome": "Il Latini", "fatto": false},
+          {"nome": "Konnubio", "fatto": false},
+          {"nome": "Cibrèino", "fatto": false},
+          {"nome": "L'Ortone", "fatto": false},
+          {"nome": "Io Osteria Personale", "fatto": false},
+          {"nome": "Cucina", "fatto": false},
+          {"nome": "Podere 39", "fatto": false},
+          {"nome": "Il Gusto di Xinge", "fatto": false},
+          {"nome": "Santo Bevitore", "fatto": false},
+          {"nome": "Nugolo", "fatto": false},
+          {"nome": "Trattoria la Tana (giapponese/italiano)", "fatto": false},
+          {"nome": "Sina HotPot Firenze", "fatto": false},
+          {"nome": "Namasté", "fatto": false},
+          {"nome": "Hiroko Bento Bar", "fatto": false}
+        ]
+      }
+    ],
     "Da fare": [
       {
         "gruppo": "Cura personale",
