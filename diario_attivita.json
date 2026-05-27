@@ -91,6 +91,12 @@
         "items": [
           {"nome": "Tagliarsi i capelli", "fatto": false}
         ]
+      },
+      {
+        "gruppo": "Tech",
+        "items": [
+          {"nome": "Configurare RetroArch per giocarci", "fatto": false}
+        ]
       }
     ]
   },
