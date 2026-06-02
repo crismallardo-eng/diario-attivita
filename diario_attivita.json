@@ -301,6 +301,10 @@
     {"data": "2026-05-29", "categoria": "Letture", "sottocategoria": "Manga", "note": "One Piece cap. 1184 — oh no, flashback nel flashback. Oda odio te e le tue robe da pedofilo"},
     {"data": "2026-05-30", "categoria": "Palestra/Attività fisica", "sottocategoria": "Upper", "note": "Upper body. Tapis roulant 10'. Lat machine 30kg 15x4 (fatica). Pulley 30kg 10x1 poi 25kg 15x3. Pulley verticale fino a 10kg. Low row 35kg 10x1 poi 30kg 15x3. Progressioni dettagliate in nota Obsidian Palestra."},
     {"data": "2026-05-30", "categoria": "Visioni", "sottocategoria": "Serie TV", "note": "I Soprano S04E06"},
-    {"data": "2026-05-31", "categoria": "Outdoor", "sottocategoria": "Altro", "note": "Comunione di Andrea"}
+    {"data": "2026-05-31", "categoria": "Outdoor", "sottocategoria": "Altro", "note": "Comunione di Andrea"},
+    {"data": "2026-06-01", "categoria": "Visioni", "sottocategoria": "Cartone", "note": "Arcane ep. 5"},
+    {"data": "2026-06-02", "categoria": "Casa", "sottocategoria": "Pulizie", "note": "Cucina + riordino camera"},
+    {"data": "2026-06-02", "categoria": "Concorsi", "sottocategoria": "Studio/sottolineatura manuale", "note": "Analisi lacune appunti + argomenti più/meno ricorrenti in quiz e tracce scritte (con Claude)"},
+    {"data": "2026-06-02", "categoria": "Casa", "sottocategoria": "Cucina", "note": "Filtrato cold brew"}
   ]
 }
