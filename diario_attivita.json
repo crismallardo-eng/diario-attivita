@@ -323,6 +323,10 @@
     {"data": "2026-06-07", "categoria": "Outdoor", "sottocategoria": "Bar/Caffè/Pub", "note": "Aperitivo Circolo Quinto Basso"},
     {"data": "2026-06-07", "categoria": "Casa", "sottocategoria": "Commissioni", "note": "Acquisti vestiti estivi - Calliope"},
     {"data": "2026-06-08", "categoria": "Clarinetto", "sottocategoria": "Lezione", "note": ""},
-    {"data": "2026-06-08", "categoria": "Letture", "sottocategoria": "Manga", "note": "Slam Dunk fino al cap. 138"}
+    {"data": "2026-06-08", "categoria": "Letture", "sottocategoria": "Manga", "note": "Slam Dunk fino al cap. 138"},
+    {"data": "2026-06-09", "categoria": "Letture", "sottocategoria": "Fumetto", "note": "Corto Maltese - Una ballata del mare salato"},
+    {"data": "2026-06-09", "categoria": "Visioni", "sottocategoria": "Cartone", "note": "Arcane ep. 7"},
+    {"data": "2026-06-09", "categoria": "Clarinetto", "sottocategoria": "Esercizi", "note": ""},
+    {"data": "2026-06-10", "categoria": "Casa", "sottocategoria": "Burocrazia", "note": "Controllo buste paga Martina"}
   ]
 }
