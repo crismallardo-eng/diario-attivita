@@ -1,68 +1,44 @@
-# Laghi e fiumi nei dintorni (da Sesto Fiorentino)
+# Laghi e fiumi nei dintorni
 
-## Entro 20 minuti in auto
+Posti balneabili vicino a Sesto Fiorentino (via Toscanini). Tempi in auto.
 
-### Parco dei Renai (Signa)
-- **Tipo:** Lago balneabile con spiaggia attrezzata
-- **Distanza:** ~15 min in auto (~10 km)
-- **Descrizione:** Grande parco verde tra Arno e Bisenzio con laghetti, spiaggia sorvegliata, piste ciclabili. Acqua controllata da ARPAT. Raggiungibile anche in bici dal Parco delle Cascine.
-- **Servizi:** Spiaggia attrezzata, aree picnic, sport
+## Vicinissimi (entro ~20 min)
 
-### Torrente Rimaggio - Pozze di Monte Morello (Sesto Fiorentino)
-- **Tipo:** Torrente con piccole cascate e pozze naturali
-- **Distanza:** ~10 min in auto (praticamente a casa)
-- **Descrizione:** Il Rimaggio nasce dalle pendici del Monte Morello. Il tratto alto dal Mulino di Gualdo a Colonnata ha cascatelle, pozze naturali e vecchi mulini. Percorso escursionistico di ~14 km (anello delle fonti di Morello, ~800 m dislivello). Adatto a trekking rinfrescante con soste nelle pozze.
-- **Note:** Pozze piccole, ideale per rinfrescarsi durante una camminata, non per una giornata "da spiaggia"
+Laghetti del Faini (Sesto Fiorentino, via Isola), ~10 min
+Sui monti della Calvana sestese. Curato, sentieri, panchine nel bosco. Più passeggiata con torrente che balneazione vera, ma dietro casa.
 
----
+Rio Buti (Prato, lato Calvana), ~25 min
+Pozze lungo il sentiero Fausto Coppi. Acqua profonda ~150 cm, gratis. Si secca con la siccità, si intorbida dopo la pioggia. Richiede camminata.
 
-## Entro 30 minuti in auto
+Parco dei Renai (Signa), ~20 min
+Parco attrezzato: lago balneabile, spiaggia, lettini, bar. Comodo. Verificare prima: lavori in corso, accesso al lago a volte limitato.
 
-### Rio Buti - Pozzo della Morte (Prato)
-- **Tipo:** Torrente con pozze naturali e cascate
-- **Distanza:** ~25-30 min in auto
-- **Come arrivare:** Da Prato direzione Canneto, lungo il Bisenzio. Parcheggio vicino alla pista ciclabile Fausto Coppi, poi sentiero segnalato CAI (breve camminata)
-- **Descrizione:** Pozze naturali in bosco fitto. Il Pozzo della Morte e la prima e piu grande pozza, circondato da rocce. Acqua molto fresca (poca luce solare). Altre pozze e cascatelle proseguendo il sentiero.
-- **Note:** Nome sinistro dovuto a incidenti storici. Spazio limitato sulle rocce intorno alla pozza principale.
+## Media distanza (30-40 min)
 
----
+Lago di Bilancino (Barberino di Mugello), ~30 min
+Il più attrezzato. Ciottoli non sabbia, acqua pulita, parcheggio gratis.
+- Spiaggia di Labbia: tranquilla, picnic
+- Bahia Cafe: bar/ristorante, bagno sorvegliato, noleggio kayak/paddle
 
-## Entro 40 minuti in auto
+Cascata sul torrente Bosso (Borgo San Lorenzo), ~35 min
+Piccola cascata con acqua limpida, balneabile. Poco conosciuta.
 
-### Lago di Bilancino (Barberino di Mugello)
-- **Tipo:** Lago artificiale con spiaggia attrezzata
-- **Distanza:** ~35-40 min in auto via A1 (casello Barberino)
-- **Descrizione:** Il piu ampio lago artificiale della Toscana (~5 km²). Spiaggia attrezzata "Bahia" con lettini, ombrelloni, docce, bar, zona lounge. Sport acquatici: canoa, windsurf, vela, kayak, sub. Oasi WWF per birdwatching. Percorsi pedonali e ciclabili lungo le rive.
-- **Servizi:** Stabilimento balneare completo, ristoro, noleggio attrezzature
-- **Merita il viaggio:** Si, il posto piu completo per una giornata intera al lago
+Fiume Sieve (zona Mugello), ~35 min
+Tratti puliti con pozze dove si fa il bagno d'estate. Non un punto attrezzato singolo, vai a cercare lo spot.
 
----
+Laghi di Bellavalle (Barberino), ~30 min
+Laghi da pesca con bar, barbecue self-service, economico. Più pesca che bagno.
 
-## Oltre 40 min (per gite piu lunghe)
+## Vale la deviazione (45-60 min, acqua bellissima)
 
-### Fiume Pesa (Chianti, zona Bargino-Calzaiolo)
-- **Tipo:** Fiume con tratti balneabili
-- **Distanza:** ~40-45 min in auto
-- **Descrizione:** Tratti riqualificati dove e possibile fare il bagno. Zona collinare del Chianti.
+Il Pozzone / Vasche del Ciuffenna (Loro Ciuffenna, AR), ~1h
+Recensioni top (4.9 / 4.8). Pozze sotto cascatelle, acqua fredda e limpida, tuffi da diverse altezze, poco affollate, accessibili.
 
-### Fiume Santerno (Firenzuola, verso Imola)
-- **Tipo:** Fiume con piscine naturali e cascate
-- **Distanza:** ~60 min in auto
-- **Descrizione:** Superato San Pellegrino, piscine naturali tra rocce bianche e lisce, cascatelle. Paesaggio spettacolare.
+Cascate del Rio Rovigo (Firenzuola), ~50 min
+Acqua fresca balneabile in valle incontaminata, dopo camminata.
 
-### Masso delle Fanciulle - Fiume Cecina (Riserva del Berignone)
-- **Tipo:** Pozze fluviali con cascata
-- **Distanza:** ~90 min in auto
-- **Descrizione:** Una delle pozze piu amate della Toscana. Acque limpide, piccola cascata e spiaggetta. Richiede camminata nel bosco.
+## Note
 
----
-
-## Consigli
-- Verificare sempre ordinanze locali di balneabilita prima di partire
-- Per le pozze nei torrenti: portare scarpette da scoglio, l'acqua e fresca anche in piena estate
-- Parco dei Renai e Lago di Bilancino sono le opzioni piu "da spiaggia" con servizi
-- Rio Buti e Torrente Rimaggio sono per chi cerca natura selvaggia
-
----
-
-*Aggiornato: giugno 2026*
+Lago di Londa, ~50 min: piccolo, prato e ombra, tranquillo ma poco da fare.
+Cascata dell'Acquacheta (San Godenzo), ~1h + camminata: pozza balneabile prima della cascata. Parcheggiare al Centro Visita, il GPS sbaglia strada.
+"Al Fiume naturista" (Firenzuola): bel fiume ma frequentato come luogo di incontri, sconsigliato per famiglie. Segnalato solo per sapere cos'è se compare su Maps.
