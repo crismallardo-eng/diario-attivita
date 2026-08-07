@@ -2,6 +2,7 @@
 
 ## File di dati
 `diario_attivita.json` nella stessa cartella di questo file.
+`spesa.md` — lista della spesa (vedi sotto).
 
 ## Comportamento principale
 Quando l'utente menziona un'attività svolta, aggiungila **subito** al campo `log` del JSON senza chiedere conferma prima. Dopo averla scritta, mostra la voce inserita e basta.
@@ -36,6 +37,12 @@ Formato di ogni voce:
 ## Obiettivi (per riferimento, non tracciarli qui)
 **Settimanali:** Film ≥1/sett · Palestra ≥2/sett · Corsa ≥1/sett
 **Mensili:** Ristorante, Mercato ortofrutticolo (sabato), Concerto, Cinema, Biblioteca, Ricetta ≥1/mese
+
+## Lista della spesa
+Sta in `spesa.md`, non su Obsidian (il connettore Drive sa solo creare file, non modificarli).
+- "devo comprare X" / "metti X nella spesa" → aggiungi subito una riga `- [ ] X` nella sezione giusta, senza chiedere conferma
+- "ho comprato X" → sposta la voce in "Presi di recente" **e** registra l'attività nel log come Casa/Spesa
+- Sezioni per luogo (Supermercato, ecc.): creane una nuova se serve
 
 ## Riepilogo rapido
 Se l'utente chiede "cosa ho fatto oggi/questa settimana/questo mese", leggere il JSON e rispondere in testo semplice — non generare report HTML (quello si fa sul PC).
