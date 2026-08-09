@@ -33,9 +33,5 @@ Formato di ogni voce:
 | Casa | Pulizie, Spesa, Commissioni, Burocrazia, Cucina, Altro |
 | Videogiochi | Indie, RPG, Avventura, Platform, Strategia, Altro |
 
-## Obiettivi (per riferimento, non tracciarli qui)
-**Settimanali:** Film ≥1/sett · Palestra ≥2/sett · Corsa ≥1/sett
-**Mensili:** Ristorante, Mercato ortofrutticolo (sabato), Concerto, Cinema, Biblioteca, Ricetta ≥1/mese
-
 ## Riepilogo rapido
 Se l'utente chiede "cosa ho fatto oggi/questa settimana/questo mese", leggere il JSON e rispondere in testo semplice — non generare report HTML (quello si fa sul PC).

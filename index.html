@@ -238,7 +238,7 @@ footer{text-align:center;font-size:.68rem;color:#222;margin-top:24px}
   <button class="tab active"            onclick="switchTab('tutto',this)">Tutto</button>
   <button class="tab"                   onclick="switchTab('libero',this)">&#9728;&#65039; Tempo libero</button>
   <button class="tab t-misero"          onclick="switchTab('misero',this)">&#128548; Tempo misero</button>
-  <button class="tab t-obiettivi"       onclick="switchTab('obiettivi',this)">&#127919; Obiettivi</button>
+  <button class="tab t-obiettivi"       onclick="switchTab('obiettivi',this)">&#128202; Statistiche</button>
   <button class="tab t-wishlist"        onclick="switchTab('wishlist',this)">&#11088; Wishlist</button>
 </div>
 
@@ -256,8 +256,10 @@ footer{text-align:center;font-size:.68rem;color:#222;margin-top:24px}
 <div id="sec-misero"   style="display:none"><div class="section-label">Tempo misero</div><div class="card"><div class="cat-list" id="content-misero"></div></div></div>
 
 <div id="sec-obiettivi" style="display:none">
-  <div class="section-label">Obiettivi settimanali</div>
-  <div class="card" id="weekly-goals-card"></div>
+  <div id="sec-weekly-obj">
+    <div class="section-label">Obiettivi settimanali</div>
+    <div class="card" id="weekly-goals-card"></div>
+  </div>
 
   <div id="sec-monthly-obj">
     <div class="section-label" id="monthly-obj-label">Obiettivi mensili</div>
@@ -698,9 +700,10 @@ function render(){
 }
 
 function renderObj(entries,stats,isAll){
-  document.getElementById('weekly-goals-card').innerHTML=renderWeeklyGoals();
-  document.getElementById('sec-monthly-obj').style.display=isAll?'none':'';
-  if(!isAll){
+  document.getElementById('sec-weekly-obj').style.display=OBJ_SETT.length?'':'none';
+  if(OBJ_SETT.length) document.getElementById('weekly-goals-card').innerHTML=renderWeeklyGoals();
+  document.getElementById('sec-monthly-obj').style.display=(isAll||!OBJ_MENS.length)?'none':'';
+  if(!isAll&&OBJ_MENS.length){
     document.getElementById('monthly-obj-label').textContent='Obiettivi mensili — '+MONTH_NAMES[S.month];
     document.getElementById('monthly-goals-grid').innerHTML=renderMonthlyGoals(entries);
   }
@@ -926,8 +929,8 @@ fetch('diario_attivita.json?_=' + Date.now())
     CAT_DEF  = data.categorie;
     ML       = data.macro_gruppi['Tempo libero'];
     MM       = data.macro_gruppi['Tempo misero'];
-    OBJ_SETT = data.obiettivi_settimanali;
-    OBJ_MENS = data.obiettivi_mensili;
+    OBJ_SETT = data.obiettivi_settimanali || [];
+    OBJ_MENS = data.obiettivi_mensili || [];
     WISHLIST = data.wishlist || {Acquisti:[], Locali:[]};
     ALL_CATS = ML.concat(MM);
     LAST_SEEN = computeLastSeen();

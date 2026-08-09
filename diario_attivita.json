@@ -15,11 +15,7 @@
     "Casa": ["Pulizie", "Spesa", "Commissioni", "Burocrazia", "Cucina", "Altro"],
     "Videogiochi": ["Indie", "RPG", "Avventura", "Platform", "Strategia", "Altro"]
   },
-  "obiettivi_settimanali": [
-    {"categoria": "Visioni", "sottocategoria": "Film", "minimo": 1, "etichetta": "Film"},
-    {"categoria": "Palestra/Attività fisica", "sottocategoria": null, "minimo": 2, "etichetta": "Palestra"},
-    {"categoria": "Palestra/Attività fisica", "sottocategoria": "Corsa", "minimo": 1, "etichetta": "Corsa"}
-  ],
+  "obiettivi_settimanali": [],
   "wishlist": {
     "Acquisti": [
       {
@@ -216,14 +212,7 @@
       }
     ]
   },
-  "obiettivi_mensili": [
-    {"categoria": "Outdoor", "sottocategoria": "Ristoranti", "minimo": 1, "etichetta": "Ristorante"},
-    {"categoria": "Outdoor", "sottocategoria": "Mercati", "minimo": 1, "etichetta": "Mercato ortofrutticolo", "nota": "di sabato"},
-    {"categoria": "Outdoor", "sottocategoria": "Concerti", "minimo": 1, "etichetta": "Concerto"},
-    {"categoria": "Outdoor", "sottocategoria": "Cinema", "minimo": 1, "etichetta": "Cinema"},
-    {"categoria": "Outdoor", "sottocategoria": "Biblioteca", "minimo": 1, "etichetta": "Biblioteca"},
-    {"categoria": "Casa", "sottocategoria": "Cucina", "minimo": 1, "etichetta": "Ricetta"}
-  ],
+  "obiettivi_mensili": [],
   "log": [
     {"data": "2026-05-01", "categoria": "Outdoor", "sottocategoria": "Parchi", "note": "Giardino orticoltura, mercato centrale, aperitivo, poké"},
     {"data": "2026-05-01", "categoria": "Visioni", "sottocategoria": "Anime", "note": "Mirai Shonen Konan ep. 17"},
