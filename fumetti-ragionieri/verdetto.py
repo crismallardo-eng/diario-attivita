@@ -28,13 +28,15 @@ for v in voci:
     cogn = cognomi(v["autore"])
     buoni = []
     for r in v["record"]:
-        if not any(e_fumetto(c) for c in r["collocazioni"]):
-            continue
         campo = norm(r["titolo"])
-        if cogn and not any(c in campo for c in cogn):
-            # l'autore non compare nel titolo del record: lo tengo come dubbio
-            r = dict(r, _dubbio=True)
-        buoni.append(r)
+        autore_ok = bool(cogn) and any(c in campo for c in cogn)
+        coll_ok = any(e_fumetto(c) for c in r["collocazioni"])
+        if autore_ok:
+            # l'autore compare nel record: riscontro certo, anche se sta in magazzino
+            buoni.append(r)
+        elif coll_ok:
+            # collocazione da fumetti ma autore non confermato: dubbio
+            buoni.append(dict(r, _dubbio=True))
     certi = [r for r in buoni if not r.get("_dubbio")]
     if certi:
         si.append((v, certi))

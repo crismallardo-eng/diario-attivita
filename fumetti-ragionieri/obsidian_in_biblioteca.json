@@ -3544,7 +3544,7 @@
   "autore": "Dave Sim",
   "trovati": 0,
   "query_usata": "Cerebus",
-  "autore_in_catalogo": 0,
+  "autore_in_catalogo": 130,
   "record": []
  },
  {
@@ -3645,7 +3645,7 @@
   "autore": "Sam Kieth",
   "trovati": 0,
   "query_usata": "Maxx",
-  "autore_in_catalogo": 0,
+  "autore_in_catalogo": 2,
   "record": []
  },
  {
@@ -3919,10 +3919,41 @@
   "sezione": "Nordamericani",
   "titolo": "Black Hole",
   "autore": "Charles Burns",
-  "trovati": 0,
+  "trovati": 3,
   "query_usata": "Black Hole",
-  "autore_in_catalogo": 16,
-  "record": []
+  "autore_in_catalogo": 0,
+  "record": [
+   {
+    "titolo": "Black Hole Sun / Soundgarden. Part 2",
+    "anno": "1994",
+    "editore_norm": "A & M Records",
+    "collocazioni": [
+     "FB|CON|SOU"
+    ],
+    "copie_ragionieri": 1,
+    "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/E200100532148"
+   },
+   {
+    "titolo": "Black hole / Silvia Vecchini",
+    "anno": "2016",
+    "editore_norm": "San Paolo",
+    "collocazioni": [
+     "G|JUN|VEC"
+    ],
+    "copie_ragionieri": 1,
+    "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/UBO4184607"
+   },
+   {
+    "titolo": "Il blues dei buchi neri : storia della scoperta delle onde gravitazionali / Janna Levin",
+    "anno": "2016",
+    "editore_norm": "Mondadori",
+    "collocazioni": [
+     "523.887|5|LEV"
+    ],
+    "copie_ragionieri": 1,
+    "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RAV2048220"
+   }
+  ]
  },
  {
   "nota": "Graphic Novel",
@@ -3950,10 +3981,131 @@
   "sezione": "Nordamericani",
   "titolo": "Here",
   "autore": "Richard McGuire",
-  "trovati": 0,
+  "trovati": 37,
   "query_usata": "Here",
-  "autore_in_catalogo": 12,
-  "record": []
+  "autore_in_catalogo": 0,
+  "record": [
+   {
+    "titolo": "\"And Here She Is Ann-Margret\" / Ann-Margret ; orquesta y coro dirig. por Don Robertson",
+    "anno": "1961",
+    "editore_norm": "",
+    "collocazioni": [
+     "Bartoletti|VAR|MAR|AND"
+    ],
+    "copie_ragionieri": 1,
+    "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RT10120709"
+   },
+   {
+    "titolo": "A beautiful day / un film di Lynne Ramsay ; sceneggiatura di Lynne Ramsay dal romanzo di Jonathan Ames ; musiche Jonny Greenwood ; direttore della fotografia Thomas Townend",
+    "anno": "2018",
+    "editore_norm": "",
+    "collocazioni": [
+     "MM|DVD|RAM"
+    ],
+    "copie_ragionieri": 1,
+    "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/UBO4346370"
+   },
+   {
+    "titolo": "Abitiamo tutti qui / Jojo Moyes ; traduzione di Maria Carla Dallavalle",
+    "anno": "2025",
+    "editore_norm": "Mondadori",
+    "collocazioni": [
+     "Rosa|MOY"
+    ],
+    "copie_ragionieri": 1,
+    "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/TO10046240"
+   },
+   {
+    "titolo": "Bebop spoken here / Benny Goodman [lato 1] ; Charlie Barnet [lato 2]",
+    "anno": "1972",
+    "editore_norm": "Capitol",
+    "collocazioni": [
+     "Vinili|JAZ|GOO|BEB"
+    ],
+    "copie_ragionieri": 1,
+    "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/DDS1245152"
+   },
+   {
+    "titolo": "Bill Evans",
+    "anno": "1990",
+    "editore_norm": "Rusconi",
+    "collocazioni": [
+     "Vinili JAZ|ANT|MUS|10/90"
+    ],
+    "copie_ragionieri": 1,
+    "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/DDS0450292"
+   },
+   {
+    "titolo": "Che ci faccio qui? / Bruce Chatwin",
+    "anno": "1990",
+    "editore_norm": "Adelphi",
+    "collocazioni": [
+     "Gelli|22"
+    ],
+    "copie_ragionieri": 1,
+    "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RAV0105273"
+   },
+   {
+    "titolo": "Chi siamo e come siamo arrivati fin qui : il DNA antico e la nuova scienza del passato dell'umanità / David Reich",
+    "anno": "2019",
+    "editore_norm": "Raffaello Cortina",
+    "collocazioni": [
+     "599.938|REI"
+    ],
+    "copie_ragionieri": 1,
+    "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RAV2099139"
+   },
+   {
+    "titolo": "Dall'eternità a qui : la ricerca della teoria ultima del tempo / Sean Carroll ; traduzione di Franco Ligabue",
+    "anno": "2011",
+    "editore_norm": "Adelphi",
+    "collocazioni": [
+     "530.11|CAR"
+    ],
+    "copie_ragionieri": 1,
+    "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/VIA0228785"
+   },
+   {
+    "titolo": "Eccomi / Jonathan Safran Foer ; traduzione di Irene Abigail Piccinini",
+    "anno": "2016",
+    "editore_norm": "Guanda",
+    "collocazioni": [
+     "N|813.54|FOE"
+    ],
+    "copie_ragionieri": 1,
+    "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RAV2046468"
+   },
+   {
+    "titolo": "Give my regards to Broad Street / Paul McCartney",
+    "anno": "1984",
+    "editore_norm": "",
+    "collocazioni": [
+     "Bartoletti|VAR|MCC|GIV"
+    ],
+    "copie_ragionieri": 1,
+    "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/DDS0835283"
+   },
+   {
+    "titolo": "Guai in arrivo : la storia della mia vita / Michael Moore ; traduzione di Gianni Pannofino",
+    "anno": "2013",
+    "editore_norm": "Mondadori",
+    "collocazioni": [
+     "S|791.430|233|092|MOO"
+    ],
+    "copie_ragionieri": 1,
+    "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RAV1994778"
+   },
+   {
+    "titolo": "Heaven here i come! / Donald Chan",
+    "anno": "",
+    "editore_norm": "",
+    "collocazioni": [
+     "GIOCHI TAV|HEA"
+    ],
+    "copie_ragionieri": 1,
+    "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/E200100667364"
+   }
+  ]
  },
  {
   "nota": "Graphic Novel",
@@ -4540,10 +4692,21 @@
   "sezione": "Nordamericani",
   "titolo": "Pyongyang",
   "autore": "Guy Delisle",
-  "trovati": 0,
+  "trovati": 1,
   "query_usata": "Pyongyang",
-  "autore_in_catalogo": 3,
-  "record": []
+  "autore_in_catalogo": 0,
+  "record": [
+   {
+    "titolo": "Pyongyang / Guy Delisle ; prefazione di Antonio Ferrari ; traduzione di Francesca Martucci",
+    "anno": "2013",
+    "editore_norm": "Rizzoli Lizard",
+    "collocazioni": [
+     "F|DEL"
+    ],
+    "copie_ragionieri": 1,
+    "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/MIL0839390"
+   }
+  ]
  },
  {
   "nota": "Graphic Novel",
@@ -4799,7 +4962,7 @@
   "autore": "Emmanuel Guibert",
   "trovati": 0,
   "query_usata": "La guerra di Alan",
-  "autore_in_catalogo": 0,
+  "autore_in_catalogo": 9,
   "record": []
  },
  {
@@ -5259,7 +5422,7 @@
   "autore": "Carlos Giménez",
   "trovati": 0,
   "query_usata": "Paracuellos",
-  "autore_in_catalogo": 0,
+  "autore_in_catalogo": 41,
   "record": []
  },
  {
@@ -5298,20 +5461,52 @@
   "sezione": "Altri europei",
   "titolo": "Logicomix",
   "autore": "Doxiadis & Papadimitriou",
-  "trovati": 0,
+  "trovati": 1,
   "query_usata": "Logicomix",
-  "autore_in_catalogo": 1,
-  "record": []
+  "autore_in_catalogo": 0,
+  "record": [
+   {
+    "titolo": "Logicomix / Apostolos Doxiadis, Christos H. Papadimitriou ; disegni Alecos Papadatos ; colori Annie Di Donna",
+    "anno": "2010",
+    "editore_norm": "",
+    "collocazioni": [
+     "F|DOX"
+    ],
+    "copie_ragionieri": 1,
+    "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/E200100347339"
+   }
+  ]
  },
  {
   "nota": "Graphic Novel",
   "sezione": "Italiani",
   "titolo": "Una ballata del mare salato",
   "autore": "Hugo Pratt",
-  "trovati": 0,
-  "query_usata": "ballata del mare salato",
-  "autore_in_catalogo": 45,
-  "record": []
+  "trovati": 2,
+  "query_usata": "Una ballata del mare salato",
+  "autore_in_catalogo": 0,
+  "record": [
+   {
+    "titolo": "Corto Maltese : una ballata del mare salato / Hugo Pratt",
+    "anno": "1995",
+    "editore_norm": "",
+    "collocazioni": [
+     "MAG|8739"
+    ],
+    "copie_ragionieri": 1,
+    "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/TWTVP00007559"
+   },
+   {
+    "titolo": "Corto Maltese : una ballata del mare salato / dall'opera originale di Hugo Pratt",
+    "anno": "2003",
+    "editore_norm": "",
+    "collocazioni": [
+     "R|DVD|COR"
+    ],
+    "copie_ragionieri": 1,
+    "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00018981"
+   }
+  ]
  },
  {
   "nota": "Graphic Novel",
@@ -5328,20 +5523,52 @@
   "sezione": "Italiani",
   "titolo": "Poema a fumetti",
   "autore": "Dino Buzzati",
-  "trovati": 0,
+  "trovati": 1,
   "query_usata": "Poema a fumetti",
   "autore_in_catalogo": 0,
-  "record": []
+  "record": [
+   {
+    "titolo": "Poema a fumetti / Dino Buzzati",
+    "anno": "1969",
+    "editore_norm": "Mondadori",
+    "collocazioni": [
+     "MAG|7145"
+    ],
+    "copie_ragionieri": 1,
+    "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/TFQ1THO09017987"
+   }
+  ]
  },
  {
   "nota": "Graphic Novel",
   "sezione": "Italiani",
   "titolo": "Gli ultimi giorni di Pompeo",
   "autore": "Andrea Pazienza",
-  "trovati": 0,
+  "trovati": 2,
   "query_usata": "Gli ultimi giorni di Pompeo",
-  "autore_in_catalogo": 19,
-  "record": []
+  "autore_in_catalogo": 0,
+  "record": [
+   {
+    "titolo": "Gli ultimi giorni di Pompeo / [Andrea Pazienza]",
+    "anno": "2011",
+    "editore_norm": "Fandango Libri",
+    "collocazioni": [
+     "F|PAZ"
+    ],
+    "copie_ragionieri": 1,
+    "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/TO01835360"
+   },
+   {
+    "titolo": "Gli ultimi giorni di Pompeo : fino all'estremo / Andrea Pazienza",
+    "anno": "2000",
+    "editore_norm": "Baldini & Castoldi",
+    "collocazioni": [
+     "F|741.594|5|PAZ"
+    ],
+    "copie_ragionieri": 1,
+    "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00084591"
+   }
+  ]
  },
  {
   "nota": "Graphic Novel",
@@ -5594,10 +5821,21 @@
   "sezione": "Italiani",
   "titolo": "Cinquemila chilometri al secondo",
   "autore": "Manuele Fior",
-  "trovati": 0,
+  "trovati": 1,
   "query_usata": "Cinquemila chilometri al secondo",
-  "autore_in_catalogo": 22,
-  "record": []
+  "autore_in_catalogo": 0,
+  "record": [
+   {
+    "titolo": "Cinquemila chilometri al secondo / Manuele Fior",
+    "anno": "2010",
+    "editore_norm": "Coconino Press",
+    "collocazioni": [
+     "F|FIO"
+    ],
+    "copie_ragionieri": 1,
+    "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/LO11317730"
+   }
+  ]
  },
  {
   "nota": "Graphic Novel",
@@ -5625,10 +5863,21 @@
   "sezione": "Italiani",
   "titolo": "Quaderni ucraini",
   "autore": "Igort",
-  "trovati": 0,
+  "trovati": 1,
   "query_usata": "Quaderni ucraini",
-  "autore_in_catalogo": 7,
-  "record": []
+  "autore_in_catalogo": 0,
+  "record": [
+   {
+    "titolo": "Quaderni ucraini : Diario di un'invasione: un reportage disegnato / Igort",
+    "anno": "2022",
+    "editore_norm": "Oblomov",
+    "collocazioni": [
+     "F|IGO"
+    ],
+    "copie_ragionieri": 1,
+    "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/UBO4654207"
+   }
+  ]
  },
  {
   "nota": "Graphic Novel",
@@ -5656,30 +5905,66 @@
   "sezione": "Italiani",
   "titolo": "Il porto proibito",
   "autore": "Radice & Turconi",
-  "trovati": 0,
+  "trovati": 1,
   "query_usata": "Il porto proibito",
   "autore_in_catalogo": 0,
-  "record": []
+  "record": [
+   {
+    "titolo": "Il porto proibito / Teresa Radice, Stefano Turconi",
+    "anno": "2015",
+    "editore_norm": "Bao Publishing",
+    "collocazioni": [
+     "F|RAD",
+     "MAG|RAG|1"
+    ],
+    "copie_ragionieri": 2,
+    "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RAV2025288"
+   }
+  ]
  },
  {
   "nota": "Graphic Novel",
   "sezione": "Giapponesi",
   "titolo": "In una lontana città",
   "autore": "Jiro Taniguchi",
-  "trovati": 0,
-  "query_usata": "lontana città",
+  "trovati": 1,
+  "query_usata": "In una lontana città",
   "autore_in_catalogo": 0,
-  "record": []
+  "record": [
+   {
+    "titolo": "In una lontana città / Jiro Taniguchi",
+    "anno": "2006",
+    "editore_norm": "Rizzoli",
+    "collocazioni": [
+     "FT|741.5|TAN",
+     "F|TAN"
+    ],
+    "copie_ragionieri": 2,
+    "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/TO01564354"
+   }
+  ]
  },
  {
   "nota": "Graphic Novel",
   "sezione": "Giapponesi",
   "titolo": "Quartier lointain",
   "autore": "Jiro Taniguchi",
-  "trovati": 0,
+  "trovati": 1,
   "query_usata": "In una lontana città",
   "autore_in_catalogo": 0,
-  "record": []
+  "record": [
+   {
+    "titolo": "In una lontana città / Jiro Taniguchi",
+    "anno": "2006",
+    "editore_norm": "Rizzoli",
+    "collocazioni": [
+     "FT|741.5|TAN",
+     "F|TAN"
+    ],
+    "copie_ragionieri": 2,
+    "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/TO01564354"
+   }
+  ]
  },
  {
   "nota": "Graphic Novel",
@@ -5718,7 +6003,7 @@
   "autore": "Rutu Modan",
   "trovati": 0,
   "query_usata": "Exit Wounds",
-  "autore_in_catalogo": 0,
+  "autore_in_catalogo": 3,
   "record": []
  }
 ]

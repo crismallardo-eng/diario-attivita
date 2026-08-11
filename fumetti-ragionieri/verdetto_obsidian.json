@@ -796,6 +796,16 @@
    },
    "record": [
     {
+     "titolo": "Dampyr / regia Riccardo Chemello ; sceneggiatura Mauro Boselli, Maurizio Colombo, Giovanni Masi ; musiche Lorenzo Tomio ; fotografia Vittorio Omodei Zorini",
+     "anno": "2023",
+     "editore_norm": "Eagle Pictures",
+     "collocazioni": [
+      "MM|DVD|CHE"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/PCM0040106"
+    },
+    {
      "titolo": "Dampyr : i misteri della Transilvania / Mauro Boselli, Maurizio Colombo",
      "anno": "2005",
      "editore_norm": "",
@@ -994,6 +1004,26 @@
      ],
      "copie_ragionieri": 1,
      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00018984"
+    },
+    {
+     "titolo": "Corto Maltese : una ballata del mare salato / Hugo Pratt",
+     "anno": "1995",
+     "editore_norm": "",
+     "collocazioni": [
+      "MAG|8739"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/TWTVP00007559"
+    },
+    {
+     "titolo": "Corto Maltese : una ballata del mare salato / dall'opera originale di Hugo Pratt",
+     "anno": "2003",
+     "editore_norm": "",
+     "collocazioni": [
+      "R|DVD|COR"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00018981"
     },
     {
      "titolo": "Corto Maltese. Equatoria / Juan Díaz Canales, Rubén Pellejero ; dall'opera di Hugo Pratt ; traduzione di Francesco Satta",
@@ -1210,6 +1240,16 @@
      ],
      "copie_ragionieri": 1,
      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00022090"
+    },
+    {
+     "titolo": "Diabolik chi sei? / un film dei Manetti bros. ; produttore Manetti bros., Claudio Macchitella ; personaggi di Angela e Luciana Giussani ; sceneggiatura Manetti bros., Michelangelo La Neve ; fotografia Angelo Fiorentino ; musiche Pivio e Aldo De Scalzi ; interpreti Giacomo Gianniotti, Miriam Leone, Valerio Mastandrea, Monica Bellucci",
+     "anno": "2024",
+     "editore_norm": "Rai Cinema",
+     "collocazioni": [
+      "MM|DVD|BRO"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/TSA1832126"
     },
     {
      "titolo": "L'arresto di Diabolik ; Atroce vendetta / Angela e Luciana Giussani",
@@ -1491,6 +1531,155 @@
   {
    "voce": {
     "nota": "Fumetti",
+    "sezione": "Umoristici IT",
+    "titolo": "Il Signor Bonaventura",
+    "autore": "Sto Sergio Tofano",
+    "trovati": 12,
+    "query_usata": "Bonaventura",
+    "autore_in_catalogo": 0,
+    "record": [
+     {
+      "titolo": "3: Bonaventura: la perfezione cristiana / a cura di Claudio Leonardi ; commento di Daniele Solvi",
+      "anno": "2012",
+      "editore_norm": "",
+      "collocazioni": [
+       "271.3|LET"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/UBO3972992"
+     },
+     {
+      "titolo": "Vol. 4: Bonaventura : la Leggenda di Francesco / a cura di Claudio Leonardi ; traduzione di Mauro Donnini ; commento di Daniele Solvi",
+      "anno": "2013",
+      "editore_norm": "",
+      "collocazioni": [
+       "271.3|LET"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/PAV0073083"
+     },
+     {
+      "titolo": "A un amico fraterno : lettere a Bonaventura Tecchi / Carlo Emilio Gadda ; a cura di Marcello Carlino",
+      "anno": "1984",
+      "editore_norm": "Garzanti",
+      "collocazioni": [
+       "853.914|GAD",
+       "Gelli|3169"
+      ],
+      "copie_ragionieri": 2,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RAV0087995"
+     },
+     {
+      "titolo": "Bonaventura Tecchi / di Giuseppe Amoroso",
+      "anno": "1976",
+      "editore_norm": "La Nuova Italia",
+      "collocazioni": [
+       "853.914|TEC",
+       "MAG|5620"
+      ],
+      "copie_ragionieri": 2,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00009651"
+     },
+     {
+      "titolo": "Francesco e l'invenzione delle stimmate : una storia per parole e immagini fino a Bonaventura e Giotto / Chiara Frugoni",
+      "anno": "1993",
+      "editore_norm": "G. Einaudi",
+      "collocazioni": [
+       "Gelli|2231"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/VEA0047979"
+     },
+     {
+      "titolo": "I notturni di Bonaventura",
+      "anno": "1950",
+      "editore_norm": "Rizzoli",
+      "collocazioni": [
+       "83/185"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00054253"
+     },
+     {
+      "titolo": "Il teatro di Bonaventura / Sto ; illustrato da Sto e Rosetta",
+      "anno": "1930",
+      "editore_norm": "Alpes",
+      "collocazioni": [
+       "84/466"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00080434"
+     },
+     {
+      "titolo": "L'isola appassionata : (con tre nuovi racconti) / Bonaventura Tecchi",
+      "anno": "1973",
+      "editore_norm": "",
+      "collocazioni": [
+       "Gelli|1877"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SBL0465628"
+     },
+     {
+      "titolo": "Qui comincia la sventura del signor Bonaventura / Sto [i.e. Sergio Tofano] ; a cura di Alessandro Tinterri",
+      "anno": "1995",
+      "editore_norm": "Adelphi",
+      "collocazioni": [
+       "84/3505",
+       "852.912|STO"
+      ],
+      "copie_ragionieri": 2,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00065912"
+     },
+     {
+      "titolo": "S. Francesco e s. Bonaventura : un'interpretazione storico-salvifica degli affreschi della navata nella Chiesa superiore di San Francesco in Assisi alla luce della teologia di san Bonaventura / Gerhard Ruf",
+      "anno": "1974",
+      "editore_norm": "Casa editrice francescana",
+      "collocazioni": [
+       "759.5|RUF"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SBL0570496"
+     },
+     {
+      "titolo": "San Francesco d'Assisi : con illustrazioni tolte dalla Leggenda di S. Bonaventura (anno 1522) e sei tavole fuori testo / Tommaso Gallarati Scotti",
+      "anno": "1926",
+      "editore_norm": "Soc. Tip. Leonardo da Vinci",
+      "collocazioni": [
+       "2/509"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/LO11183360"
+     },
+     {
+      "titolo": "Una losca congiura ovverosia Barbariccia contro Bonaventura : Commedia in tre atti / Sto ; illustrazioni di Sto",
+      "anno": "1952",
+      "editore_norm": "Rizzoli",
+      "collocazioni": [
+       "84/2806"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00044386"
+     }
+    ]
+   },
+   "record": [
+    {
+     "titolo": "Qui comincia la sventura del signor Bonaventura / Sto [i.e. Sergio Tofano] ; a cura di Alessandro Tinterri",
+     "anno": "1995",
+     "editore_norm": "Adelphi",
+     "collocazioni": [
+      "84/3505",
+      "852.912|STO"
+     ],
+     "copie_ragionieri": 2,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00065912"
+    }
+   ]
+  },
+  {
+   "voce": {
+    "nota": "Fumetti",
     "sezione": "Autoriali IT",
     "titolo": "Zanardi",
     "autore": "Andrea Pazienza",
@@ -1615,6 +1804,16 @@
      ],
      "copie_ragionieri": 1,
      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/E200100049413"
+    },
+    {
+     "titolo": "Le straordinarie avventure di Pentothal / Andrea Pazienza",
+     "anno": "",
+     "editore_norm": "",
+     "collocazioni": [
+      "MAG|5821"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00078846"
     }
    ]
   },
@@ -1851,6 +2050,16 @@
     ]
    },
    "record": [
+    {
+     "titolo": "Le avventure di Tintin : il segreto dell'unicorno / [prodotto] da Steven Spielberg e Peter Jackson ; a Steven Spielberg film ; music by John Williams ; based on The adventures of Tintin by Hergé ; screenplay by Steven Moffat and Edgar Wright & Joe Cornish",
+     "anno": "2012",
+     "editore_norm": "Sony Pictures home entertainment",
+     "collocazioni": [
+      "Sezione-Multimediale R|DVD|TIN"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/LO11418220"
+    },
     {
      "titolo": "Tintin / Hergé",
      "anno": "2003",
@@ -2321,6 +2530,16 @@
      ],
      "copie_ragionieri": 1,
      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/MIL0954852"
+    },
+    {
+     "titolo": "Valerian e la città dei mille pianeti / scritto e diretto da Luc Besson ; dalla graphic novel di Jean Claude Mézières e Pierre Christin ; fotografia di Thierry Arbogast ; musiche di Alexandre Desplat ; prodotto da Virginie Besson-Silla ; [cast] Dane Dehaan, Cara Delevingne, Clive Owen ... [et al.]",
+     "anno": "2018",
+     "editore_norm": "",
+     "collocazioni": [
+      "MM|DVD|BES"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RCA0807911"
     }
    ]
   },
@@ -2418,6 +2637,36 @@
      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/E200100477081"
     },
     {
+     "titolo": "Asterix & Obelix: il regno di mezzo / un film di Guillame Canet ; sceneggiatura Philippe Mechelen e Julien Hervé ; dall'opera di Renè Goscinny e Albert Uderzo",
+     "anno": "2023",
+     "editore_norm": "Eagle Pictures [distributore]",
+     "collocazioni": [
+      "MM|DVD|CAN"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/UBO4727030"
+    },
+    {
+     "titolo": "Asterix e il regno degli dei / un film di Louis Clichy e Alexandre Astier ; dall'opera di René Goscinny e Albert Uderzo ; screenplay, adaptation and dialogue by Alexandre Astier ; contribution to the screenplay by Jean-Rémi François and Philip Lazebnik ; original music by Philippe Rombi",
+     "anno": "2015",
+     "editore_norm": "Koch Media",
+     "collocazioni": [
+      "R|DVD|AST"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/LO11582850"
+    },
+    {
+     "titolo": "Asterix e il segreto della pozione magica / regia Alexandre Astier, Louis Clichy ; sceneggiatura Alexandre Astier ; dall'opera di René Goscinny e Albert Uderzo ; musiche Philippe Rombi ; direttore della fotografia David Dulac",
+     "anno": "2019",
+     "editore_norm": "Eagle Pictures",
+     "collocazioni": [
+      "R|DVD|AST"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/PCM0010740"
+    },
+    {
      "titolo": "Asterix tra banchi e... banchetti : quattordici storie complete di Asterix / René Goscinny e Albert Uderzo",
      "anno": "2003",
      "editore_norm": "",
@@ -2498,6 +2747,16 @@
    },
    "record": [
     {
+     "titolo": "I Puffi : il film / [directed by Chris Miller ; written by Pam Brady ; based on the characters and works of Peyo ; music by Henry Jackman]",
+     "anno": "2025",
+     "editore_norm": "Plaion Pictures [distributore]",
+     "collocazioni": [
+      "R|DVD|PUF"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/TSA1908490"
+    },
+    {
      "titolo": "I puffi : nel blu dipinto di blu / Peyo",
      "anno": "2005",
      "editore_norm": "",
@@ -2506,41 +2765,6 @@
      ],
      "copie_ragionieri": 1,
      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00064749"
-    }
-   ]
-  },
-  {
-   "voce": {
-    "nota": "Fumetti",
-    "sezione": "Franco-belgi",
-    "titolo": "Titeuf",
-    "autore": "Zep",
-    "trovati": 1,
-    "query_usata": "Titeuf",
-    "autore_in_catalogo": 0,
-    "record": [
-     {
-      "titolo": "Titeuf : la voce dell'innocenza / Zep",
-      "anno": "2005",
-      "editore_norm": "",
-      "collocazioni": [
-       "F|CLA|55"
-      ],
-      "copie_ragionieri": 1,
-      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00081969"
-     }
-    ]
-   },
-   "record": [
-    {
-     "titolo": "Titeuf : la voce dell'innocenza / Zep",
-     "anno": "2005",
-     "editore_norm": "",
-     "collocazioni": [
-      "F|CLA|55"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00081969"
     }
    ]
   },
@@ -2946,6 +3170,26 @@
      ],
      "copie_ragionieri": 1,
      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/E200100038292"
+    },
+    {
+     "titolo": "Sin City : una donna per cui uccidere / diretto da Robert Rodriguez e Frank Miller ; scritto da Frank Miller ; dal graphic novel di Frank Miller",
+     "anno": "2015",
+     "editore_norm": "",
+     "collocazioni": [
+      "MM|DVD|ROD"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/LO11566905"
+    },
+    {
+     "titolo": "Sin city [Videoregistrazione]Robert Rodriguez, Frank Miller, Quentin Tarantino",
+     "anno": "2005",
+     "editore_norm": "Buena Vista Home Entertainment",
+     "collocazioni": [
+      "Sezione-Multimediale MM|DVD|ROD"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/E200100142814"
     }
    ]
   },
@@ -3257,6 +3501,81 @@
      ],
      "copie_ragionieri": 1,
      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/LIA0956181"
+    }
+   ]
+  },
+  {
+   "voce": {
+    "nota": "Fumetti",
+    "sezione": "Anglofoni",
+    "titolo": "Hellboy",
+    "autore": "Mike Mignola",
+    "trovati": 3,
+    "query_usata": "Hellboy",
+    "autore_in_catalogo": 0,
+    "record": [
+     {
+      "titolo": "Hellboy / diretto da Neil Marshall ; sceneggiatura di Andrew Cosby ; musica di Benjamin Wallfisch ; basato sul fumetto creato da MIke Mignola ; direttore della fotografia Lorenzo Senatore ; prodotto da Lawrence Gordon, Carl Hampe, Lloyd Levin ... [et al.] ; [interpreti] David Harbour, Milla Jovovich, Jan McShane ... [et al.]",
+      "anno": "2019",
+      "editore_norm": "Eagle Pictures [distributore]",
+      "collocazioni": [
+       "MM|DVD|HEL"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/CAG2088606"
+     },
+     {
+      "titolo": "Hellboy / directed by Guillermo Del Toro ; music by Marco Beltrami ; based upon the Dark horse comic created by Mike Mignola ; screen story by Guillermo Del Toro & Peter Briggs ; screenplay by Guillermo Del Toro",
+      "anno": "",
+      "editore_norm": "",
+      "collocazioni": [
+       "MM|DVD|HEL"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/MOD1571090"
+     },
+     {
+      "titolo": "Hellboy : the golden army / directed by Guillermo Del Toro ; based upon the Dark horse comic book created by Mike Mignola ; director of photography Guillermo Navarro ; music by Danny Elfman",
+      "anno": "2008",
+      "editore_norm": "",
+      "collocazioni": [
+       "MM|DVD|HEL"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/LO11223952"
+     }
+    ]
+   },
+   "record": [
+    {
+     "titolo": "Hellboy / diretto da Neil Marshall ; sceneggiatura di Andrew Cosby ; musica di Benjamin Wallfisch ; basato sul fumetto creato da MIke Mignola ; direttore della fotografia Lorenzo Senatore ; prodotto da Lawrence Gordon, Carl Hampe, Lloyd Levin ... [et al.] ; [interpreti] David Harbour, Milla Jovovich, Jan McShane ... [et al.]",
+     "anno": "2019",
+     "editore_norm": "Eagle Pictures [distributore]",
+     "collocazioni": [
+      "MM|DVD|HEL"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/CAG2088606"
+    },
+    {
+     "titolo": "Hellboy / directed by Guillermo Del Toro ; music by Marco Beltrami ; based upon the Dark horse comic created by Mike Mignola ; screen story by Guillermo Del Toro & Peter Briggs ; screenplay by Guillermo Del Toro",
+     "anno": "",
+     "editore_norm": "",
+     "collocazioni": [
+      "MM|DVD|HEL"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/MOD1571090"
+    },
+    {
+     "titolo": "Hellboy : the golden army / directed by Guillermo Del Toro ; based upon the Dark horse comic book created by Mike Mignola ; director of photography Guillermo Navarro ; music by Danny Elfman",
+     "anno": "2008",
+     "editore_norm": "",
+     "collocazioni": [
+      "MM|DVD|HEL"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/LO11223952"
     }
    ]
   },
@@ -4093,6 +4412,101 @@
   {
    "voce": {
     "nota": "Fumetti",
+    "sezione": "Anglofoni",
+    "titolo": "Akiko",
+    "autore": "Mark Crilley",
+    "trovati": 5,
+    "query_usata": "Akiko",
+    "autore_in_catalogo": 0,
+    "record": [
+     {
+      "titolo": "Akiko Assò e la centrale degli incubi / Alessandro Gatti ; illustrazioni di Laura Re",
+      "anno": "2017",
+      "editore_norm": "Lapis",
+      "collocazioni": [
+       "R|AZZ|QUE"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/UBO4246139"
+     },
+     {
+      "titolo": "Akiko e il palloncino / Komako Sakai",
+      "anno": "2013",
+      "editore_norm": "Babalibri",
+      "collocazioni": [
+       "R|ALBI|SAK"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RMS2631080"
+     },
+     {
+      "titolo": "Akiko e il pianeta Smoo / Mark Crilley",
+      "anno": "2003",
+      "editore_norm": "Mondadori",
+      "collocazioni": [
+       "R|ARA|CRI"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00001190"
+     },
+     {
+      "titolo": "Akiko e la grande muraglia di Trudd / Mark Crilley",
+      "anno": "2003",
+      "editore_norm": "Mondadori",
+      "collocazioni": [
+       "R|ARA|CRI"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00001191"
+     },
+     {
+      "titolo": "Akiko nel castello di Alia Rellapor / Mark Crilley",
+      "anno": "2003",
+      "editore_norm": "Mondadori",
+      "collocazioni": [
+       "R|ARA|CRI"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00001192"
+     }
+    ]
+   },
+   "record": [
+    {
+     "titolo": "Akiko e il pianeta Smoo / Mark Crilley",
+     "anno": "2003",
+     "editore_norm": "Mondadori",
+     "collocazioni": [
+      "R|ARA|CRI"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00001190"
+    },
+    {
+     "titolo": "Akiko e la grande muraglia di Trudd / Mark Crilley",
+     "anno": "2003",
+     "editore_norm": "Mondadori",
+     "collocazioni": [
+      "R|ARA|CRI"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00001191"
+    },
+    {
+     "titolo": "Akiko nel castello di Alia Rellapor / Mark Crilley",
+     "anno": "2003",
+     "editore_norm": "Mondadori",
+     "collocazioni": [
+      "R|ARA|CRI"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00001192"
+    }
+   ]
+  },
+  {
+   "voce": {
+    "nota": "Fumetti",
     "sezione": "Latinoamericani",
     "titolo": "El Eternauta",
     "autore": "Oesterheld & Solano López",
@@ -4588,6 +5002,76 @@
   {
    "voce": {
     "nota": "Graphic Novel",
+    "sezione": "Nordamericani",
+    "titolo": "Pyongyang",
+    "autore": "Guy Delisle",
+    "trovati": 1,
+    "query_usata": "Pyongyang",
+    "autore_in_catalogo": 0,
+    "record": [
+     {
+      "titolo": "Pyongyang / Guy Delisle ; prefazione di Antonio Ferrari ; traduzione di Francesca Martucci",
+      "anno": "2013",
+      "editore_norm": "Rizzoli Lizard",
+      "collocazioni": [
+       "F|DEL"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/MIL0839390"
+     }
+    ]
+   },
+   "record": [
+    {
+     "titolo": "Pyongyang / Guy Delisle ; prefazione di Antonio Ferrari ; traduzione di Francesca Martucci",
+     "anno": "2013",
+     "editore_norm": "Rizzoli Lizard",
+     "collocazioni": [
+      "F|DEL"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/MIL0839390"
+    }
+   ]
+  },
+  {
+   "voce": {
+    "nota": "Graphic Novel",
+    "sezione": "Britannici",
+    "titolo": "Gemma Bovery",
+    "autore": "Posy Simmonds",
+    "trovati": 1,
+    "query_usata": "Gemma Bovery",
+    "autore_in_catalogo": 0,
+    "record": [
+     {
+      "titolo": "Gemma Bovery / un film di Anne Fontaine ; sceneggiatura, adattamento e dialoghi Pascal Bonitzer e Anne Fontaine ; tratto dalla graphic novel di Posy Simmonds ; musiche originali di Bruno Coulais ; fotografia Christophe Beaucarne ; prodotto da Philippe Carcassonne, Matthieu Tarot, Sidonie Dumas & Francis Boespflug ; [cast] Fabrice Luchini, Gemma Arterton, Jason Flemyng... [et al.]",
+      "anno": "2015",
+      "editore_norm": "",
+      "collocazioni": [
+       "MM|DVD|FON"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/MOD1650723"
+     }
+    ]
+   },
+   "record": [
+    {
+     "titolo": "Gemma Bovery / un film di Anne Fontaine ; sceneggiatura, adattamento e dialoghi Pascal Bonitzer e Anne Fontaine ; tratto dalla graphic novel di Posy Simmonds ; musiche originali di Bruno Coulais ; fotografia Christophe Beaucarne ; prodotto da Philippe Carcassonne, Matthieu Tarot, Sidonie Dumas & Francis Boespflug ; [cast] Fabrice Luchini, Gemma Arterton, Jason Flemyng... [et al.]",
+     "anno": "2015",
+     "editore_norm": "",
+     "collocazioni": [
+      "MM|DVD|FON"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/MOD1650723"
+    }
+   ]
+  },
+  {
+   "voce": {
+    "nota": "Graphic Novel",
     "sezione": "Britannici",
     "titolo": "The Arrival",
     "autore": "Shaun Tan",
@@ -4747,6 +5231,16 @@
      ],
      "copie_ragionieri": 1,
      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00059794"
+    },
+    {
+     "titolo": "Persepolis [Videoregistrazione]un film di Marjane Satrapi e Vincent Paronnaud ; con le voci di Sergio Castellitto, Paola Cortellesi, Licia Maglietta",
+     "anno": "2008",
+     "editore_norm": "",
+     "collocazioni": [
+      "Sezione|Multimediale MM|DVD|SAT"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00059796"
     },
     {
      "titolo": "Persepolis : storia di un'infanzia / Marjane Satrapi",
@@ -5078,6 +5572,186 @@
   {
    "voce": {
     "nota": "Graphic Novel",
+    "sezione": "Altri europei",
+    "titolo": "Logicomix",
+    "autore": "Doxiadis & Papadimitriou",
+    "trovati": 1,
+    "query_usata": "Logicomix",
+    "autore_in_catalogo": 0,
+    "record": [
+     {
+      "titolo": "Logicomix / Apostolos Doxiadis, Christos H. Papadimitriou ; disegni Alecos Papadatos ; colori Annie Di Donna",
+      "anno": "2010",
+      "editore_norm": "",
+      "collocazioni": [
+       "F|DOX"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/E200100347339"
+     }
+    ]
+   },
+   "record": [
+    {
+     "titolo": "Logicomix / Apostolos Doxiadis, Christos H. Papadimitriou ; disegni Alecos Papadatos ; colori Annie Di Donna",
+     "anno": "2010",
+     "editore_norm": "",
+     "collocazioni": [
+      "F|DOX"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/E200100347339"
+    }
+   ]
+  },
+  {
+   "voce": {
+    "nota": "Graphic Novel",
+    "sezione": "Italiani",
+    "titolo": "Una ballata del mare salato",
+    "autore": "Hugo Pratt",
+    "trovati": 2,
+    "query_usata": "Una ballata del mare salato",
+    "autore_in_catalogo": 0,
+    "record": [
+     {
+      "titolo": "Corto Maltese : una ballata del mare salato / Hugo Pratt",
+      "anno": "1995",
+      "editore_norm": "",
+      "collocazioni": [
+       "MAG|8739"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/TWTVP00007559"
+     },
+     {
+      "titolo": "Corto Maltese : una ballata del mare salato / dall'opera originale di Hugo Pratt",
+      "anno": "2003",
+      "editore_norm": "",
+      "collocazioni": [
+       "R|DVD|COR"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00018981"
+     }
+    ]
+   },
+   "record": [
+    {
+     "titolo": "Corto Maltese : una ballata del mare salato / Hugo Pratt",
+     "anno": "1995",
+     "editore_norm": "",
+     "collocazioni": [
+      "MAG|8739"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/TWTVP00007559"
+    },
+    {
+     "titolo": "Corto Maltese : una ballata del mare salato / dall'opera originale di Hugo Pratt",
+     "anno": "2003",
+     "editore_norm": "",
+     "collocazioni": [
+      "R|DVD|COR"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00018981"
+    }
+   ]
+  },
+  {
+   "voce": {
+    "nota": "Graphic Novel",
+    "sezione": "Italiani",
+    "titolo": "Poema a fumetti",
+    "autore": "Dino Buzzati",
+    "trovati": 1,
+    "query_usata": "Poema a fumetti",
+    "autore_in_catalogo": 0,
+    "record": [
+     {
+      "titolo": "Poema a fumetti / Dino Buzzati",
+      "anno": "1969",
+      "editore_norm": "Mondadori",
+      "collocazioni": [
+       "MAG|7145"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/TFQ1THO09017987"
+     }
+    ]
+   },
+   "record": [
+    {
+     "titolo": "Poema a fumetti / Dino Buzzati",
+     "anno": "1969",
+     "editore_norm": "Mondadori",
+     "collocazioni": [
+      "MAG|7145"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/TFQ1THO09017987"
+    }
+   ]
+  },
+  {
+   "voce": {
+    "nota": "Graphic Novel",
+    "sezione": "Italiani",
+    "titolo": "Gli ultimi giorni di Pompeo",
+    "autore": "Andrea Pazienza",
+    "trovati": 2,
+    "query_usata": "Gli ultimi giorni di Pompeo",
+    "autore_in_catalogo": 0,
+    "record": [
+     {
+      "titolo": "Gli ultimi giorni di Pompeo / [Andrea Pazienza]",
+      "anno": "2011",
+      "editore_norm": "Fandango Libri",
+      "collocazioni": [
+       "F|PAZ"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/TO01835360"
+     },
+     {
+      "titolo": "Gli ultimi giorni di Pompeo : fino all'estremo / Andrea Pazienza",
+      "anno": "2000",
+      "editore_norm": "Baldini & Castoldi",
+      "collocazioni": [
+       "F|741.594|5|PAZ"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00084591"
+     }
+    ]
+   },
+   "record": [
+    {
+     "titolo": "Gli ultimi giorni di Pompeo / [Andrea Pazienza]",
+     "anno": "2011",
+     "editore_norm": "Fandango Libri",
+     "collocazioni": [
+      "F|PAZ"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/TO01835360"
+    },
+    {
+     "titolo": "Gli ultimi giorni di Pompeo : fino all'estremo / Andrea Pazienza",
+     "anno": "2000",
+     "editore_norm": "Baldini & Castoldi",
+     "collocazioni": [
+      "F|741.594|5|PAZ"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00084591"
+    }
+   ]
+  },
+  {
+   "voce": {
+    "nota": "Graphic Novel",
     "sezione": "Italiani",
     "titolo": "Stigmate",
     "autore": "Mattotti & Piersanti",
@@ -5143,6 +5817,16 @@
     ]
    },
    "record": [
+    {
+     "titolo": "5 è il numero perfetto / scritto e diretto da Igort ; tratto dall'omonima graphic novel di Igort ; fotografia Nicolaj Brüel ; prodotto da Marina Marzotto, Mattia Oddone, Elda Ferri ; [cast] Toni Servillo, Valeria Golino, Carlo Buccirosso... [et al.]",
+     "anno": "2019",
+     "editore_norm": "",
+     "collocazioni": [
+      "MM|DVD|IGO"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/MOD1704971"
+    },
     {
      "titolo": "5 è il numero perfetto : 1994-2002 / Igort",
      "anno": "2006",
@@ -5264,6 +5948,41 @@
    "voce": {
     "nota": "Graphic Novel",
     "sezione": "Italiani",
+    "titolo": "Cinquemila chilometri al secondo",
+    "autore": "Manuele Fior",
+    "trovati": 1,
+    "query_usata": "Cinquemila chilometri al secondo",
+    "autore_in_catalogo": 0,
+    "record": [
+     {
+      "titolo": "Cinquemila chilometri al secondo / Manuele Fior",
+      "anno": "2010",
+      "editore_norm": "Coconino Press",
+      "collocazioni": [
+       "F|FIO"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/LO11317730"
+     }
+    ]
+   },
+   "record": [
+    {
+     "titolo": "Cinquemila chilometri al secondo / Manuele Fior",
+     "anno": "2010",
+     "editore_norm": "Coconino Press",
+     "collocazioni": [
+      "F|FIO"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/LO11317730"
+    }
+   ]
+  },
+  {
+   "voce": {
+    "nota": "Graphic Novel",
+    "sezione": "Italiani",
     "titolo": "Kobane Calling",
     "autore": "Zerocalcare",
     "trovati": 1,
@@ -5292,6 +6011,41 @@
      ],
      "copie_ragionieri": 2,
      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/UBO4178522"
+    }
+   ]
+  },
+  {
+   "voce": {
+    "nota": "Graphic Novel",
+    "sezione": "Italiani",
+    "titolo": "Quaderni ucraini",
+    "autore": "Igort",
+    "trovati": 1,
+    "query_usata": "Quaderni ucraini",
+    "autore_in_catalogo": 0,
+    "record": [
+     {
+      "titolo": "Quaderni ucraini : Diario di un'invasione: un reportage disegnato / Igort",
+      "anno": "2022",
+      "editore_norm": "Oblomov",
+      "collocazioni": [
+       "F|IGO"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/UBO4654207"
+     }
+    ]
+   },
+   "record": [
+    {
+     "titolo": "Quaderni ucraini : Diario di un'invasione: un reportage disegnato / Igort",
+     "anno": "2022",
+     "editore_norm": "Oblomov",
+     "collocazioni": [
+      "F|IGO"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/UBO4654207"
     }
    ]
   },
@@ -5329,9 +6083,156 @@
      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RAV2038469"
     }
    ]
+  },
+  {
+   "voce": {
+    "nota": "Graphic Novel",
+    "sezione": "Italiani",
+    "titolo": "Il porto proibito",
+    "autore": "Radice & Turconi",
+    "trovati": 1,
+    "query_usata": "Il porto proibito",
+    "autore_in_catalogo": 0,
+    "record": [
+     {
+      "titolo": "Il porto proibito / Teresa Radice, Stefano Turconi",
+      "anno": "2015",
+      "editore_norm": "Bao Publishing",
+      "collocazioni": [
+       "F|RAD",
+       "MAG|RAG|1"
+      ],
+      "copie_ragionieri": 2,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RAV2025288"
+     }
+    ]
+   },
+   "record": [
+    {
+     "titolo": "Il porto proibito / Teresa Radice, Stefano Turconi",
+     "anno": "2015",
+     "editore_norm": "Bao Publishing",
+     "collocazioni": [
+      "F|RAD",
+      "MAG|RAG|1"
+     ],
+     "copie_ragionieri": 2,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RAV2025288"
+    }
+   ]
+  },
+  {
+   "voce": {
+    "nota": "Graphic Novel",
+    "sezione": "Giapponesi",
+    "titolo": "In una lontana città",
+    "autore": "Jiro Taniguchi",
+    "trovati": 1,
+    "query_usata": "In una lontana città",
+    "autore_in_catalogo": 0,
+    "record": [
+     {
+      "titolo": "In una lontana città / Jiro Taniguchi",
+      "anno": "2006",
+      "editore_norm": "Rizzoli",
+      "collocazioni": [
+       "FT|741.5|TAN",
+       "F|TAN"
+      ],
+      "copie_ragionieri": 2,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/TO01564354"
+     }
+    ]
+   },
+   "record": [
+    {
+     "titolo": "In una lontana città / Jiro Taniguchi",
+     "anno": "2006",
+     "editore_norm": "Rizzoli",
+     "collocazioni": [
+      "FT|741.5|TAN",
+      "F|TAN"
+     ],
+     "copie_ragionieri": 2,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/TO01564354"
+    }
+   ]
+  },
+  {
+   "voce": {
+    "nota": "Graphic Novel",
+    "sezione": "Giapponesi",
+    "titolo": "Quartier lointain",
+    "autore": "Jiro Taniguchi",
+    "trovati": 1,
+    "query_usata": "In una lontana città",
+    "autore_in_catalogo": 0,
+    "record": [
+     {
+      "titolo": "In una lontana città / Jiro Taniguchi",
+      "anno": "2006",
+      "editore_norm": "Rizzoli",
+      "collocazioni": [
+       "FT|741.5|TAN",
+       "F|TAN"
+      ],
+      "copie_ragionieri": 2,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/TO01564354"
+     }
+    ]
+   },
+   "record": [
+    {
+     "titolo": "In una lontana città / Jiro Taniguchi",
+     "anno": "2006",
+     "editore_norm": "Rizzoli",
+     "collocazioni": [
+      "FT|741.5|TAN",
+      "F|TAN"
+     ],
+     "copie_ragionieri": 2,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/TO01564354"
+    }
+   ]
   }
  ],
  "da_verificare": [
+  {
+   "voce": {
+    "nota": "Fumetti",
+    "sezione": "Franco-belgi",
+    "titolo": "Titeuf",
+    "autore": "Zep",
+    "trovati": 1,
+    "query_usata": "Titeuf",
+    "autore_in_catalogo": 0,
+    "record": [
+     {
+      "titolo": "Titeuf : la voce dell'innocenza / Zep",
+      "anno": "2005",
+      "editore_norm": "",
+      "collocazioni": [
+       "F|CLA|55"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00081969"
+     }
+    ]
+   },
+   "record": [
+    {
+     "titolo": "Titeuf : la voce dell'innocenza / Zep",
+     "anno": "2005",
+     "editore_norm": "",
+     "collocazioni": [
+      "F|CLA|55"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00081969",
+     "_dubbio": true
+    }
+   ]
+  },
   {
    "voce": {
     "nota": "Fumetti",
@@ -6015,272 +6916,6 @@
  "assenti": [
   {
    "nota": "Fumetti",
-   "sezione": "Avventura & Bonelli",
-   "titolo": "Julia",
-   "autore": "Giancarlo Berardi",
-   "trovati": 50,
-   "query_usata": "Julia",
-   "autore_in_catalogo": 0,
-   "record": [
-    {
-     "titolo": "1: La spia della corona / Julia Quinn ; traduzione di Francesco Saba Sardi",
-     "anno": "2022",
-     "editore_norm": "Mondadori",
-     "collocazioni": [
-      "Rosa|QUI"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/TO10039419"
-    },
-    {
-     "titolo": "2: Io ti avrò / Julia Quinn ; traduzione di Silvia Maria Cristina Calandra",
-     "anno": "2022",
-     "editore_norm": "Mondadori",
-     "collocazioni": [
-      "Rosa|QUI"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/TO10039373"
-    },
-    {
-     "titolo": "L'imperatrice che sfidò gli dei / Santiago Posteguillo ; traduzione di Adele Ricciotti",
-     "anno": "2020",
-     "editore_norm": "Piemme",
-     "collocazioni": [
-      "N|863.7|POS"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/MIL0991513"
-    },
-    {
-     "titolo": "Vol. 2: Una dolcissima bugia / Julia Quinn ; traduzione di Adriana Colombo e Paola Frezza",
-     "anno": "2024",
-     "editore_norm": "Mondadori",
-     "collocazioni": [
-      "Rosa|QUI"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RE20014245"
-    },
-    {
-     "titolo": "Vol. 3: L'altra Miss Bridgerton / Julia Quinn ; traduzione di Bertha Smiths-Jacob",
-     "anno": "2024",
-     "editore_norm": "Mondadori",
-     "collocazioni": [
-      "Rosa|QUI"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RE20014246"
-    },
-    {
-     "titolo": "Vol. 4: Due cuori e uno scandalo / Julia Quinn ; traduzione di Bertha Smiths-Jacob",
-     "anno": "2024",
-     "editore_norm": "Mondadori",
-     "collocazioni": [
-      "Rosa|QUI"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RE20014247"
-    },
-    {
-     "titolo": "Vol. 1: Il duca e io / Julia Quinn ; traduzione di Milena Fiumali",
-     "anno": "2020",
-     "editore_norm": "Oscar Mondadori",
-     "collocazioni": [
-      "Coop Rosa|QUI",
-      "Rosa|QUI"
-     ],
-     "copie_ragionieri": 2,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/LO11798245"
-    },
-    {
-     "titolo": "Vol. 2: Il visconte che mi amava / Julia Quinn ; traduzione di Antonella Pieretti",
-     "anno": "2020",
-     "editore_norm": "Mondadori",
-     "collocazioni": [
-      "Rosa|QUI"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RCA0840194"
-    },
-    {
-     "titolo": "Vol. 3: La proposta di un gentiluomo / Julia Quinn ; traduzione di Giuseppe Settanni",
-     "anno": "2020",
-     "editore_norm": "Oscar Mondadori",
-     "collocazioni": [
-      "Rosa|QUI"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RCA0840195"
-    },
-    {
-     "titolo": "Vol. 4: Un uomo da conquistare / Julia Quinn ; traduzione di Antonella Pieretti",
-     "anno": "2021",
-     "editore_norm": "Oscar Mondadori",
-     "collocazioni": [
-      "Rosa|QUI"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/VIA0446287"
-    },
-    {
-     "titolo": "Vol. 6: Amare un libertino / Julia Quinn ; traduzione di Antonella Pieretti",
-     "anno": "2021",
-     "editore_norm": "Oscar Mondadori",
-     "collocazioni": [
-      "Rosa|QUI"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/PAR1273653"
-    },
-    {
-     "titolo": "Vol. 7: Tutto in un bacio / Julia Quinn ; traduzione di Antonella Pieretti",
-     "anno": "2021",
-     "editore_norm": "Mondadori",
-     "collocazioni": [
-      "Rosa|QUI"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/LZ10006126"
-    }
-   ]
-  },
-  {
-   "nota": "Fumetti",
-   "sezione": "Umoristici IT",
-   "titolo": "Il Signor Bonaventura",
-   "autore": "Sto Sergio Tofano",
-   "trovati": 12,
-   "query_usata": "Bonaventura",
-   "autore_in_catalogo": 0,
-   "record": [
-    {
-     "titolo": "3: Bonaventura: la perfezione cristiana / a cura di Claudio Leonardi ; commento di Daniele Solvi",
-     "anno": "2012",
-     "editore_norm": "",
-     "collocazioni": [
-      "271.3|LET"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/UBO3972992"
-    },
-    {
-     "titolo": "Vol. 4: Bonaventura : la Leggenda di Francesco / a cura di Claudio Leonardi ; traduzione di Mauro Donnini ; commento di Daniele Solvi",
-     "anno": "2013",
-     "editore_norm": "",
-     "collocazioni": [
-      "271.3|LET"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/PAV0073083"
-    },
-    {
-     "titolo": "A un amico fraterno : lettere a Bonaventura Tecchi / Carlo Emilio Gadda ; a cura di Marcello Carlino",
-     "anno": "1984",
-     "editore_norm": "Garzanti",
-     "collocazioni": [
-      "853.914|GAD",
-      "Gelli|3169"
-     ],
-     "copie_ragionieri": 2,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RAV0087995"
-    },
-    {
-     "titolo": "Bonaventura Tecchi / di Giuseppe Amoroso",
-     "anno": "1976",
-     "editore_norm": "La Nuova Italia",
-     "collocazioni": [
-      "853.914|TEC",
-      "MAG|5620"
-     ],
-     "copie_ragionieri": 2,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00009651"
-    },
-    {
-     "titolo": "Francesco e l'invenzione delle stimmate : una storia per parole e immagini fino a Bonaventura e Giotto / Chiara Frugoni",
-     "anno": "1993",
-     "editore_norm": "G. Einaudi",
-     "collocazioni": [
-      "Gelli|2231"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/VEA0047979"
-    },
-    {
-     "titolo": "I notturni di Bonaventura",
-     "anno": "1950",
-     "editore_norm": "Rizzoli",
-     "collocazioni": [
-      "83/185"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00054253"
-    },
-    {
-     "titolo": "Il teatro di Bonaventura / Sto ; illustrato da Sto e Rosetta",
-     "anno": "1930",
-     "editore_norm": "Alpes",
-     "collocazioni": [
-      "84/466"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00080434"
-    },
-    {
-     "titolo": "L'isola appassionata : (con tre nuovi racconti) / Bonaventura Tecchi",
-     "anno": "1973",
-     "editore_norm": "",
-     "collocazioni": [
-      "Gelli|1877"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SBL0465628"
-    },
-    {
-     "titolo": "Qui comincia la sventura del signor Bonaventura / Sto [i.e. Sergio Tofano] ; a cura di Alessandro Tinterri",
-     "anno": "1995",
-     "editore_norm": "Adelphi",
-     "collocazioni": [
-      "84/3505",
-      "852.912|STO"
-     ],
-     "copie_ragionieri": 2,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00065912"
-    },
-    {
-     "titolo": "S. Francesco e s. Bonaventura : un'interpretazione storico-salvifica degli affreschi della navata nella Chiesa superiore di San Francesco in Assisi alla luce della teologia di san Bonaventura / Gerhard Ruf",
-     "anno": "1974",
-     "editore_norm": "Casa editrice francescana",
-     "collocazioni": [
-      "759.5|RUF"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SBL0570496"
-    },
-    {
-     "titolo": "San Francesco d'Assisi : con illustrazioni tolte dalla Leggenda di S. Bonaventura (anno 1522) e sei tavole fuori testo / Tommaso Gallarati Scotti",
-     "anno": "1926",
-     "editore_norm": "Soc. Tip. Leonardo da Vinci",
-     "collocazioni": [
-      "2/509"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/LO11183360"
-    },
-    {
-     "titolo": "Una losca congiura ovverosia Barbariccia contro Bonaventura : Commedia in tre atti / Sto ; illustrazioni di Sto",
-     "anno": "1952",
-     "editore_norm": "Rizzoli",
-     "collocazioni": [
-      "84/2806"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00044386"
-    }
-   ]
-  },
-  {
-   "nota": "Fumetti",
    "sezione": "Umoristici IT",
    "titolo": "Quasi signorina",
    "autore": "",
@@ -6474,137 +7109,6 @@
   {
    "nota": "Fumetti",
    "sezione": "Franco-belgi",
-   "titolo": "XIII",
-   "autore": "Van Hamme & Vance",
-   "trovati": 36,
-   "query_usata": "XIII",
-   "autore_in_catalogo": 0,
-   "record": [
-    {
-     "titolo": "\"Libertas\" : lettera enciclica di sua santità Leone XIII sulla libertà umana",
-     "anno": "1964",
-     "editore_norm": "",
-     "collocazioni": [
-      "Resistenza|2031/1"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00043232"
-    },
-    {
-     "titolo": "Angelicus Concentus : gli strumenti musicali nei dipinti di area senese e grossetana dei secoli XIII-XVII / Luca Serravalle ; prefazione di Stefano Adami",
-     "anno": "2006",
-     "editore_norm": "",
-     "collocazioni": [
-      "758.978|419|SER"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00003428"
-    },
-    {
-     "titolo": "Biennale di Venezia 1922 : Catalogo : XIII Esposizione Internazionale d'Arte della città di Venezia, 1922",
-     "anno": "1922",
-     "editore_norm": "",
-     "collocazioni": [
-      "70/2742"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00009057"
-    },
-    {
-     "titolo": "Calendario per l'anno 1935-XIII : Centenario di Giosuè Carducci / [casa editrice Zanichelli N.] ; [Diego Pettinelli disegnò ed incise]",
-     "anno": "1935",
-     "editore_norm": "Zanichelli",
-     "collocazioni": [
-      "BB|499"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00010886"
-    },
-    {
-     "titolo": "Carteggio universale di Cosimo I De Medici/XIII : Archivio di Stato di Firenze : inventario XIII -(1554-1557) : Mediceo del principato : filze 515-529A / Regione Toscana, Giunta regionale ; a cura Marcella Morviducci",
-     "anno": "2001",
-     "editore_norm": "Regione Toscana",
-     "collocazioni": [
-      "MAG|2628"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00012539"
-    },
-    {
-     "titolo": "Castelli del contado fiorentino nei secoli XII e XIII / Riccardo Francovich",
-     "anno": "1976",
-     "editore_norm": "Clusf",
-     "collocazioni": [
-      "sez.l.|945.51|FRA"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00013004"
-    },
-    {
-     "titolo": "Concerto in Do minore per violino, archi e continuo WV Cv-XIII-98 ; Concerto in solo per 2 violini, archi e continuo WV C-XIII-87 ; Concerto in Re maggiore per violino, archi e continuo WV C-XIII-71 ; Concerto in Re minore per violino, archi e continuo WV C-XIII-75 / Johann Gottlieb Graun ; Federico Guglielmo violino ; Accademia d'Archi Arrigoni ; Christian Sebastianutto violino solo",
-     "anno": "2022",
-     "editore_norm": "Michelangeli",
-     "collocazioni": [
-      "MM|CLA|GRA"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/REA0330152"
-    },
-    {
-     "titolo": "Documenti politici dal Xii al XIIItredicesimo congresso",
-     "anno": "1972",
-     "editore_norm": "",
-     "collocazioni": [
-      "FM|406"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00023779"
-    },
-    {
-     "titolo": "Filmworks XIII : 2002 Volume Three : Invitation To A Suicide / John Zorn",
-     "anno": "2002",
-     "editore_norm": "Tzadick",
-     "collocazioni": [
-      "FB|JAZ|ZOR"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RT10099583"
-    },
-    {
-     "titolo": "Il canto XIII del Paradiso letto da Giuseppe Vandelli nella sala di Dante in Orsanmichele / Dante Alighieri ; Giuseppe Vandelli",
-     "anno": "1933",
-     "editore_norm": "Sansoni",
-     "collocazioni": [
-      "81/1784"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00011595"
-    },
-    {
-     "titolo": "Il canto XIII del Purgatorio letto da Albino Zenatti nella sala di Dante in Orsanmichele / Dante Alighieri ; Albino Zenatti",
-     "anno": "",
-     "editore_norm": "",
-     "collocazioni": [
-      "81/498"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00011596"
-    },
-    {
-     "titolo": "Il centonovelle : cento novelle scelte e commentate di scrittori italiani e stranieri dal XIII al XX secolo / Giuseppe Parisi",
-     "anno": "",
-     "editore_norm": "",
-     "collocazioni": [
-      "84/1533"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00013752"
-    }
-   ]
-  },
-  {
-   "nota": "Fumetti",
-   "sezione": "Franco-belgi",
    "titolo": "Largo Winch",
    "autore": "Van Hamme & Francq",
    "trovati": 0,
@@ -6727,47 +7231,6 @@
   {
    "nota": "Fumetti",
    "sezione": "Anglofoni",
-   "titolo": "Hellboy",
-   "autore": "Mike Mignola",
-   "trovati": 3,
-   "query_usata": "Hellboy",
-   "autore_in_catalogo": 0,
-   "record": [
-    {
-     "titolo": "Hellboy / diretto da Neil Marshall ; sceneggiatura di Andrew Cosby ; musica di Benjamin Wallfisch ; basato sul fumetto creato da MIke Mignola ; direttore della fotografia Lorenzo Senatore ; prodotto da Lawrence Gordon, Carl Hampe, Lloyd Levin ... [et al.] ; [interpreti] David Harbour, Milla Jovovich, Jan McShane ... [et al.]",
-     "anno": "2019",
-     "editore_norm": "Eagle Pictures [distributore]",
-     "collocazioni": [
-      "MM|DVD|HEL"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/CAG2088606"
-    },
-    {
-     "titolo": "Hellboy / directed by Guillermo Del Toro ; music by Marco Beltrami ; based upon the Dark horse comic created by Mike Mignola ; screen story by Guillermo Del Toro & Peter Briggs ; screenplay by Guillermo Del Toro",
-     "anno": "",
-     "editore_norm": "",
-     "collocazioni": [
-      "MM|DVD|HEL"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/MOD1571090"
-    },
-    {
-     "titolo": "Hellboy : the golden army / directed by Guillermo Del Toro ; based upon the Dark horse comic book created by Mike Mignola ; director of photography Guillermo Navarro ; music by Danny Elfman",
-     "anno": "2008",
-     "editore_norm": "",
-     "collocazioni": [
-      "MM|DVD|HEL"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/LO11223952"
-    }
-   ]
-  },
-  {
-   "nota": "Fumetti",
-   "sezione": "Anglofoni",
    "titolo": "Usagi Yojimbo",
    "autore": "Stan Sakai",
    "trovati": 0,
@@ -6812,7 +7275,7 @@
    "autore": "Dave Sim",
    "trovati": 0,
    "query_usata": "Cerebus",
-   "autore_in_catalogo": 0,
+   "autore_in_catalogo": 130,
    "record": []
   },
   {
@@ -6913,7 +7376,7 @@
    "autore": "Sam Kieth",
    "trovati": 0,
    "query_usata": "Maxx",
-   "autore_in_catalogo": 0,
+   "autore_in_catalogo": 2,
    "record": []
   },
   {
@@ -6935,67 +7398,6 @@
    "query_usata": "Tank Girl",
    "autore_in_catalogo": 596,
    "record": []
-  },
-  {
-   "nota": "Fumetti",
-   "sezione": "Anglofoni",
-   "titolo": "Akiko",
-   "autore": "Mark Crilley",
-   "trovati": 5,
-   "query_usata": "Akiko",
-   "autore_in_catalogo": 0,
-   "record": [
-    {
-     "titolo": "Akiko Assò e la centrale degli incubi / Alessandro Gatti ; illustrazioni di Laura Re",
-     "anno": "2017",
-     "editore_norm": "Lapis",
-     "collocazioni": [
-      "R|AZZ|QUE"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/UBO4246139"
-    },
-    {
-     "titolo": "Akiko e il palloncino / Komako Sakai",
-     "anno": "2013",
-     "editore_norm": "Babalibri",
-     "collocazioni": [
-      "R|ALBI|SAK"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RMS2631080"
-    },
-    {
-     "titolo": "Akiko e il pianeta Smoo / Mark Crilley",
-     "anno": "2003",
-     "editore_norm": "Mondadori",
-     "collocazioni": [
-      "R|ARA|CRI"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00001190"
-    },
-    {
-     "titolo": "Akiko e la grande muraglia di Trudd / Mark Crilley",
-     "anno": "2003",
-     "editore_norm": "Mondadori",
-     "collocazioni": [
-      "R|ARA|CRI"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00001191"
-    },
-    {
-     "titolo": "Akiko nel castello di Alia Rellapor / Mark Crilley",
-     "anno": "2003",
-     "editore_norm": "Mondadori",
-     "collocazioni": [
-      "R|ARA|CRI"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00001192"
-    }
-   ]
   },
   {
    "nota": "Fumetti",
@@ -7042,20 +7444,172 @@
    "sezione": "Nordamericani",
    "titolo": "Black Hole",
    "autore": "Charles Burns",
-   "trovati": 0,
+   "trovati": 3,
    "query_usata": "Black Hole",
-   "autore_in_catalogo": 16,
-   "record": []
+   "autore_in_catalogo": 0,
+   "record": [
+    {
+     "titolo": "Black Hole Sun / Soundgarden. Part 2",
+     "anno": "1994",
+     "editore_norm": "A & M Records",
+     "collocazioni": [
+      "FB|CON|SOU"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/E200100532148"
+    },
+    {
+     "titolo": "Black hole / Silvia Vecchini",
+     "anno": "2016",
+     "editore_norm": "San Paolo",
+     "collocazioni": [
+      "G|JUN|VEC"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/UBO4184607"
+    },
+    {
+     "titolo": "Il blues dei buchi neri : storia della scoperta delle onde gravitazionali / Janna Levin",
+     "anno": "2016",
+     "editore_norm": "Mondadori",
+     "collocazioni": [
+      "523.887|5|LEV"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RAV2048220"
+    }
+   ]
   },
   {
    "nota": "Graphic Novel",
    "sezione": "Nordamericani",
    "titolo": "Here",
    "autore": "Richard McGuire",
-   "trovati": 0,
+   "trovati": 37,
    "query_usata": "Here",
-   "autore_in_catalogo": 12,
-   "record": []
+   "autore_in_catalogo": 0,
+   "record": [
+    {
+     "titolo": "\"And Here She Is Ann-Margret\" / Ann-Margret ; orquesta y coro dirig. por Don Robertson",
+     "anno": "1961",
+     "editore_norm": "",
+     "collocazioni": [
+      "Bartoletti|VAR|MAR|AND"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RT10120709"
+    },
+    {
+     "titolo": "A beautiful day / un film di Lynne Ramsay ; sceneggiatura di Lynne Ramsay dal romanzo di Jonathan Ames ; musiche Jonny Greenwood ; direttore della fotografia Thomas Townend",
+     "anno": "2018",
+     "editore_norm": "",
+     "collocazioni": [
+      "MM|DVD|RAM"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/UBO4346370"
+    },
+    {
+     "titolo": "Abitiamo tutti qui / Jojo Moyes ; traduzione di Maria Carla Dallavalle",
+     "anno": "2025",
+     "editore_norm": "Mondadori",
+     "collocazioni": [
+      "Rosa|MOY"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/TO10046240"
+    },
+    {
+     "titolo": "Bebop spoken here / Benny Goodman [lato 1] ; Charlie Barnet [lato 2]",
+     "anno": "1972",
+     "editore_norm": "Capitol",
+     "collocazioni": [
+      "Vinili|JAZ|GOO|BEB"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/DDS1245152"
+    },
+    {
+     "titolo": "Bill Evans",
+     "anno": "1990",
+     "editore_norm": "Rusconi",
+     "collocazioni": [
+      "Vinili JAZ|ANT|MUS|10/90"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/DDS0450292"
+    },
+    {
+     "titolo": "Che ci faccio qui? / Bruce Chatwin",
+     "anno": "1990",
+     "editore_norm": "Adelphi",
+     "collocazioni": [
+      "Gelli|22"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RAV0105273"
+    },
+    {
+     "titolo": "Chi siamo e come siamo arrivati fin qui : il DNA antico e la nuova scienza del passato dell'umanità / David Reich",
+     "anno": "2019",
+     "editore_norm": "Raffaello Cortina",
+     "collocazioni": [
+      "599.938|REI"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RAV2099139"
+    },
+    {
+     "titolo": "Dall'eternità a qui : la ricerca della teoria ultima del tempo / Sean Carroll ; traduzione di Franco Ligabue",
+     "anno": "2011",
+     "editore_norm": "Adelphi",
+     "collocazioni": [
+      "530.11|CAR"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/VIA0228785"
+    },
+    {
+     "titolo": "Eccomi / Jonathan Safran Foer ; traduzione di Irene Abigail Piccinini",
+     "anno": "2016",
+     "editore_norm": "Guanda",
+     "collocazioni": [
+      "N|813.54|FOE"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RAV2046468"
+    },
+    {
+     "titolo": "Give my regards to Broad Street / Paul McCartney",
+     "anno": "1984",
+     "editore_norm": "",
+     "collocazioni": [
+      "Bartoletti|VAR|MCC|GIV"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/DDS0835283"
+    },
+    {
+     "titolo": "Guai in arrivo : la storia della mia vita / Michael Moore ; traduzione di Gianni Pannofino",
+     "anno": "2013",
+     "editore_norm": "Mondadori",
+     "collocazioni": [
+      "S|791.430|233|092|MOO"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RAV1994778"
+    },
+    {
+     "titolo": "Heaven here i come! / Donald Chan",
+     "anno": "",
+     "editore_norm": "",
+     "collocazioni": [
+      "GIOCHI TAV|HEA"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/E200100667364"
+    }
+   ]
   },
   {
    "nota": "Graphic Novel",
@@ -7435,16 +7989,6 @@
   },
   {
    "nota": "Graphic Novel",
-   "sezione": "Nordamericani",
-   "titolo": "Pyongyang",
-   "autore": "Guy Delisle",
-   "trovati": 0,
-   "query_usata": "Pyongyang",
-   "autore_in_catalogo": 3,
-   "record": []
-  },
-  {
-   "nota": "Graphic Novel",
    "sezione": "Britannici",
    "titolo": "When the Wind Blows",
    "autore": "Raymond Briggs",
@@ -7477,27 +8021,6 @@
   {
    "nota": "Graphic Novel",
    "sezione": "Britannici",
-   "titolo": "Gemma Bovery",
-   "autore": "Posy Simmonds",
-   "trovati": 1,
-   "query_usata": "Gemma Bovery",
-   "autore_in_catalogo": 0,
-   "record": [
-    {
-     "titolo": "Gemma Bovery / un film di Anne Fontaine ; sceneggiatura, adattamento e dialoghi Pascal Bonitzer e Anne Fontaine ; tratto dalla graphic novel di Posy Simmonds ; musiche originali di Bruno Coulais ; fotografia Christophe Beaucarne ; prodotto da Philippe Carcassonne, Matthieu Tarot, Sidonie Dumas & Francis Boespflug ; [cast] Fabrice Luchini, Gemma Arterton, Jason Flemyng... [et al.]",
-     "anno": "2015",
-     "editore_norm": "",
-     "collocazioni": [
-      "MM|DVD|FON"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/MOD1650723"
-    }
-   ]
-  },
-  {
-   "nota": "Graphic Novel",
-   "sezione": "Britannici",
    "titolo": "Alice in Sunderland",
    "autore": "Bryan Talbot",
    "trovati": 0,
@@ -7522,7 +8045,7 @@
    "autore": "Emmanuel Guibert",
    "trovati": 0,
    "query_usata": "La guerra di Alan",
-   "autore_in_catalogo": 0,
+   "autore_in_catalogo": 9,
    "record": []
   },
   {
@@ -7746,7 +8269,7 @@
    "autore": "Carlos Giménez",
    "trovati": 0,
    "query_usata": "Paracuellos",
-   "autore_in_catalogo": 0,
+   "autore_in_catalogo": 41,
    "record": []
   },
   {
@@ -7782,102 +8305,12 @@
   },
   {
    "nota": "Graphic Novel",
-   "sezione": "Altri europei",
-   "titolo": "Logicomix",
-   "autore": "Doxiadis & Papadimitriou",
-   "trovati": 0,
-   "query_usata": "Logicomix",
-   "autore_in_catalogo": 1,
-   "record": []
-  },
-  {
-   "nota": "Graphic Novel",
-   "sezione": "Italiani",
-   "titolo": "Una ballata del mare salato",
-   "autore": "Hugo Pratt",
-   "trovati": 0,
-   "query_usata": "ballata del mare salato",
-   "autore_in_catalogo": 45,
-   "record": []
-  },
-  {
-   "nota": "Graphic Novel",
    "sezione": "Italiani",
    "titolo": "La rivolta dei racchi",
    "autore": "Guido Buzzelli",
    "trovati": 0,
    "query_usata": "La rivolta dei racchi",
    "autore_in_catalogo": 2,
-   "record": []
-  },
-  {
-   "nota": "Graphic Novel",
-   "sezione": "Italiani",
-   "titolo": "Poema a fumetti",
-   "autore": "Dino Buzzati",
-   "trovati": 0,
-   "query_usata": "Poema a fumetti",
-   "autore_in_catalogo": 0,
-   "record": []
-  },
-  {
-   "nota": "Graphic Novel",
-   "sezione": "Italiani",
-   "titolo": "Gli ultimi giorni di Pompeo",
-   "autore": "Andrea Pazienza",
-   "trovati": 0,
-   "query_usata": "Gli ultimi giorni di Pompeo",
-   "autore_in_catalogo": 19,
-   "record": []
-  },
-  {
-   "nota": "Graphic Novel",
-   "sezione": "Italiani",
-   "titolo": "Cinquemila chilometri al secondo",
-   "autore": "Manuele Fior",
-   "trovati": 0,
-   "query_usata": "Cinquemila chilometri al secondo",
-   "autore_in_catalogo": 22,
-   "record": []
-  },
-  {
-   "nota": "Graphic Novel",
-   "sezione": "Italiani",
-   "titolo": "Quaderni ucraini",
-   "autore": "Igort",
-   "trovati": 0,
-   "query_usata": "Quaderni ucraini",
-   "autore_in_catalogo": 7,
-   "record": []
-  },
-  {
-   "nota": "Graphic Novel",
-   "sezione": "Italiani",
-   "titolo": "Il porto proibito",
-   "autore": "Radice & Turconi",
-   "trovati": 0,
-   "query_usata": "Il porto proibito",
-   "autore_in_catalogo": 0,
-   "record": []
-  },
-  {
-   "nota": "Graphic Novel",
-   "sezione": "Giapponesi",
-   "titolo": "In una lontana città",
-   "autore": "Jiro Taniguchi",
-   "trovati": 0,
-   "query_usata": "lontana città",
-   "autore_in_catalogo": 0,
-   "record": []
-  },
-  {
-   "nota": "Graphic Novel",
-   "sezione": "Giapponesi",
-   "titolo": "Quartier lointain",
-   "autore": "Jiro Taniguchi",
-   "trovati": 0,
-   "query_usata": "In una lontana città",
-   "autore_in_catalogo": 0,
    "record": []
   },
   {
@@ -7917,8 +8350,18 @@
    "autore": "Rutu Modan",
    "trovati": 0,
    "query_usata": "Exit Wounds",
-   "autore_in_catalogo": 0,
+   "autore_in_catalogo": 3,
    "record": []
+  }
+ ],
+ "recuperati_manualmente": [
+  {
+   "titolo": "Julia",
+   "record": "Julia / Giancarlo Berardi (2003) F|CLA|30"
+  },
+  {
+   "titolo": "XIII",
+   "record": "13Tredici : l'uomo senza passato / Van Hamme, Vance (2005) F|CLA|54"
   }
  ]
 }
