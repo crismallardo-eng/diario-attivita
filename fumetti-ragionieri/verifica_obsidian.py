@@ -47,9 +47,16 @@ def cerca(campo, valore):
         p = {"isPostBack": "1", campo: valore, "result_type": "list", "step": "50"}
         req = urllib.request.Request(BASE + "?" + urllib.parse.urlencode(p),
                                      headers={"User-Agent": UA})
-        body = urllib.request.urlopen(req, timeout=90).read().decode("utf-8", "replace")
+        # l'OPAC limita le richieste ravvicinate: attesa lunga e riprova
+        for tentativo in range(6):
+            body = urllib.request.urlopen(req, timeout=90).read().decode("utf-8", "replace")
+            if "Access deny" not in body and len(body) > 5000:
+                break
+            attesa = 20 * (tentativo + 1)
+            print(f"      throttled, riprovo fra {attesa}s", flush=True)
+            time.sleep(attesa)
         open(fn, "w", encoding="utf-8").write(body)
-        time.sleep(1.0)
+        time.sleep(4.0)
     m = re.search(r"Risultati:\s*\d+-\d+ su (\d+)", body)
     tot = int(m.group(1)) if m else 0
     return tot, estrai_record(body)
