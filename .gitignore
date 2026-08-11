@@ -1,1 +1,5 @@
 fumetti-ragionieri/.cache/
+fumetti-ragionieri/.cache_verifica/
+fumetti-ragionieri/__pycache__/
+fumetti-ragionieri/drive/
+fumetti-ragionieri/verifica.log

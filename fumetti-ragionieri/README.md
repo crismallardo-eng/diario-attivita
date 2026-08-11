@@ -1,6 +1,6 @@
 # Fumetti della Biblioteca Ragionieri (Sesto Fiorentino)
 
-Estrazione completa dei fumetti posseduti dalla Biblioteca Comunale "Ernesto
+Estrazione (parziale, vedi avvertenza sotto) dei fumetti posseduti dalla Biblioteca Comunale "Ernesto
 Ragionieri" di Sesto Fiorentino, ricavata dal catalogo online OPAC SDIAF
 (Sistema Documentario Integrato dell'Area Fiorentina).
 
@@ -14,6 +14,26 @@ Data estrazione: 2026-08-11
 | `fumetti_ragionieri.csv` | 3.630 titoli, un record per riga (apribile in Excel/LibreOffice) |
 | `fumetti_ragionieri.json` | gli stessi dati in JSON |
 | `estrai_fumetti.py` | script che rigenera i due file interrogando il catalogo |
+
+## ⚠️ Attenzione: l'elenco è un limite inferiore, non il posseduto completo
+
+Verificato interrogando il catalogo live: **esistono fumetti in biblioteca che
+nessuno dei sei filtri qui sotto intercetta.** Esempi confermati — Preacher (7
+record), Sin City (9), Hellboy (3), Kobane Calling, Rughe di Paco Roca, Una
+ballata del mare salato.
+
+Quei record sono schedati senza genere SBN, senza soggetto "Fumetti" e senza
+classificazione Dewey: l'unico indizio è la collocazione (`F|ENN`, `F|WAL`…), e
+la ricerca avanzata dell'OPAC **non espone la collocazione come campo
+interrogabile**. Nemmeno la ricerca full-text aiuta, perché la parola "fumetti"
+che compare nella descrizione fisica (`1 volume : fumetti ; 29 cm`) non è
+indicizzata da `q` / `parole_chiave`.
+
+Conseguenza pratica: questo dataset è molto completo sui **manga** (schedati con
+il genere SBN in modo sistematico) e **lacunoso sul fumetto occidentale**
+catalogato prima dell'adozione del codice di genere. Per sapere se un titolo
+specifico c'è, la strada affidabile è la ricerca per titolo sul catalogo live —
+vedi `verifica_obsidian.py`.
 
 ## Numeri
 
