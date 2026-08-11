@@ -1531,155 +1531,6 @@
   {
    "voce": {
     "nota": "Fumetti",
-    "sezione": "Umoristici IT",
-    "titolo": "Il Signor Bonaventura",
-    "autore": "Sto Sergio Tofano",
-    "trovati": 12,
-    "query_usata": "Bonaventura",
-    "autore_in_catalogo": 0,
-    "record": [
-     {
-      "titolo": "3: Bonaventura: la perfezione cristiana / a cura di Claudio Leonardi ; commento di Daniele Solvi",
-      "anno": "2012",
-      "editore_norm": "",
-      "collocazioni": [
-       "271.3|LET"
-      ],
-      "copie_ragionieri": 1,
-      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/UBO3972992"
-     },
-     {
-      "titolo": "Vol. 4: Bonaventura : la Leggenda di Francesco / a cura di Claudio Leonardi ; traduzione di Mauro Donnini ; commento di Daniele Solvi",
-      "anno": "2013",
-      "editore_norm": "",
-      "collocazioni": [
-       "271.3|LET"
-      ],
-      "copie_ragionieri": 1,
-      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/PAV0073083"
-     },
-     {
-      "titolo": "A un amico fraterno : lettere a Bonaventura Tecchi / Carlo Emilio Gadda ; a cura di Marcello Carlino",
-      "anno": "1984",
-      "editore_norm": "Garzanti",
-      "collocazioni": [
-       "853.914|GAD",
-       "Gelli|3169"
-      ],
-      "copie_ragionieri": 2,
-      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RAV0087995"
-     },
-     {
-      "titolo": "Bonaventura Tecchi / di Giuseppe Amoroso",
-      "anno": "1976",
-      "editore_norm": "La Nuova Italia",
-      "collocazioni": [
-       "853.914|TEC",
-       "MAG|5620"
-      ],
-      "copie_ragionieri": 2,
-      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00009651"
-     },
-     {
-      "titolo": "Francesco e l'invenzione delle stimmate : una storia per parole e immagini fino a Bonaventura e Giotto / Chiara Frugoni",
-      "anno": "1993",
-      "editore_norm": "G. Einaudi",
-      "collocazioni": [
-       "Gelli|2231"
-      ],
-      "copie_ragionieri": 1,
-      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/VEA0047979"
-     },
-     {
-      "titolo": "I notturni di Bonaventura",
-      "anno": "1950",
-      "editore_norm": "Rizzoli",
-      "collocazioni": [
-       "83/185"
-      ],
-      "copie_ragionieri": 1,
-      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00054253"
-     },
-     {
-      "titolo": "Il teatro di Bonaventura / Sto ; illustrato da Sto e Rosetta",
-      "anno": "1930",
-      "editore_norm": "Alpes",
-      "collocazioni": [
-       "84/466"
-      ],
-      "copie_ragionieri": 1,
-      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00080434"
-     },
-     {
-      "titolo": "L'isola appassionata : (con tre nuovi racconti) / Bonaventura Tecchi",
-      "anno": "1973",
-      "editore_norm": "",
-      "collocazioni": [
-       "Gelli|1877"
-      ],
-      "copie_ragionieri": 1,
-      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SBL0465628"
-     },
-     {
-      "titolo": "Qui comincia la sventura del signor Bonaventura / Sto [i.e. Sergio Tofano] ; a cura di Alessandro Tinterri",
-      "anno": "1995",
-      "editore_norm": "Adelphi",
-      "collocazioni": [
-       "84/3505",
-       "852.912|STO"
-      ],
-      "copie_ragionieri": 2,
-      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00065912"
-     },
-     {
-      "titolo": "S. Francesco e s. Bonaventura : un'interpretazione storico-salvifica degli affreschi della navata nella Chiesa superiore di San Francesco in Assisi alla luce della teologia di san Bonaventura / Gerhard Ruf",
-      "anno": "1974",
-      "editore_norm": "Casa editrice francescana",
-      "collocazioni": [
-       "759.5|RUF"
-      ],
-      "copie_ragionieri": 1,
-      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SBL0570496"
-     },
-     {
-      "titolo": "San Francesco d'Assisi : con illustrazioni tolte dalla Leggenda di S. Bonaventura (anno 1522) e sei tavole fuori testo / Tommaso Gallarati Scotti",
-      "anno": "1926",
-      "editore_norm": "Soc. Tip. Leonardo da Vinci",
-      "collocazioni": [
-       "2/509"
-      ],
-      "copie_ragionieri": 1,
-      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/LO11183360"
-     },
-     {
-      "titolo": "Una losca congiura ovverosia Barbariccia contro Bonaventura : Commedia in tre atti / Sto ; illustrazioni di Sto",
-      "anno": "1952",
-      "editore_norm": "Rizzoli",
-      "collocazioni": [
-       "84/2806"
-      ],
-      "copie_ragionieri": 1,
-      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00044386"
-     }
-    ]
-   },
-   "record": [
-    {
-     "titolo": "Qui comincia la sventura del signor Bonaventura / Sto [i.e. Sergio Tofano] ; a cura di Alessandro Tinterri",
-     "anno": "1995",
-     "editore_norm": "Adelphi",
-     "collocazioni": [
-      "84/3505",
-      "852.912|STO"
-     ],
-     "copie_ragionieri": 2,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00065912"
-    }
-   ]
-  },
-  {
-   "voce": {
-    "nota": "Fumetti",
     "sezione": "Autoriali IT",
     "titolo": "Zanardi",
     "autore": "Andrea Pazienza",
@@ -3508,81 +3359,6 @@
    "voce": {
     "nota": "Fumetti",
     "sezione": "Anglofoni",
-    "titolo": "Hellboy",
-    "autore": "Mike Mignola",
-    "trovati": 3,
-    "query_usata": "Hellboy",
-    "autore_in_catalogo": 0,
-    "record": [
-     {
-      "titolo": "Hellboy / diretto da Neil Marshall ; sceneggiatura di Andrew Cosby ; musica di Benjamin Wallfisch ; basato sul fumetto creato da MIke Mignola ; direttore della fotografia Lorenzo Senatore ; prodotto da Lawrence Gordon, Carl Hampe, Lloyd Levin ... [et al.] ; [interpreti] David Harbour, Milla Jovovich, Jan McShane ... [et al.]",
-      "anno": "2019",
-      "editore_norm": "Eagle Pictures [distributore]",
-      "collocazioni": [
-       "MM|DVD|HEL"
-      ],
-      "copie_ragionieri": 1,
-      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/CAG2088606"
-     },
-     {
-      "titolo": "Hellboy / directed by Guillermo Del Toro ; music by Marco Beltrami ; based upon the Dark horse comic created by Mike Mignola ; screen story by Guillermo Del Toro & Peter Briggs ; screenplay by Guillermo Del Toro",
-      "anno": "",
-      "editore_norm": "",
-      "collocazioni": [
-       "MM|DVD|HEL"
-      ],
-      "copie_ragionieri": 1,
-      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/MOD1571090"
-     },
-     {
-      "titolo": "Hellboy : the golden army / directed by Guillermo Del Toro ; based upon the Dark horse comic book created by Mike Mignola ; director of photography Guillermo Navarro ; music by Danny Elfman",
-      "anno": "2008",
-      "editore_norm": "",
-      "collocazioni": [
-       "MM|DVD|HEL"
-      ],
-      "copie_ragionieri": 1,
-      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/LO11223952"
-     }
-    ]
-   },
-   "record": [
-    {
-     "titolo": "Hellboy / diretto da Neil Marshall ; sceneggiatura di Andrew Cosby ; musica di Benjamin Wallfisch ; basato sul fumetto creato da MIke Mignola ; direttore della fotografia Lorenzo Senatore ; prodotto da Lawrence Gordon, Carl Hampe, Lloyd Levin ... [et al.] ; [interpreti] David Harbour, Milla Jovovich, Jan McShane ... [et al.]",
-     "anno": "2019",
-     "editore_norm": "Eagle Pictures [distributore]",
-     "collocazioni": [
-      "MM|DVD|HEL"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/CAG2088606"
-    },
-    {
-     "titolo": "Hellboy / directed by Guillermo Del Toro ; music by Marco Beltrami ; based upon the Dark horse comic created by Mike Mignola ; screen story by Guillermo Del Toro & Peter Briggs ; screenplay by Guillermo Del Toro",
-     "anno": "",
-     "editore_norm": "",
-     "collocazioni": [
-      "MM|DVD|HEL"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/MOD1571090"
-    },
-    {
-     "titolo": "Hellboy : the golden army / directed by Guillermo Del Toro ; based upon the Dark horse comic book created by Mike Mignola ; director of photography Guillermo Navarro ; music by Danny Elfman",
-     "anno": "2008",
-     "editore_norm": "",
-     "collocazioni": [
-      "MM|DVD|HEL"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/LO11223952"
-    }
-   ]
-  },
-  {
-   "voce": {
-    "nota": "Fumetti",
-    "sezione": "Anglofoni",
     "titolo": "Fables",
     "autore": "Bill Willingham",
     "trovati": 35,
@@ -4412,101 +4188,6 @@
   {
    "voce": {
     "nota": "Fumetti",
-    "sezione": "Anglofoni",
-    "titolo": "Akiko",
-    "autore": "Mark Crilley",
-    "trovati": 5,
-    "query_usata": "Akiko",
-    "autore_in_catalogo": 0,
-    "record": [
-     {
-      "titolo": "Akiko Assò e la centrale degli incubi / Alessandro Gatti ; illustrazioni di Laura Re",
-      "anno": "2017",
-      "editore_norm": "Lapis",
-      "collocazioni": [
-       "R|AZZ|QUE"
-      ],
-      "copie_ragionieri": 1,
-      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/UBO4246139"
-     },
-     {
-      "titolo": "Akiko e il palloncino / Komako Sakai",
-      "anno": "2013",
-      "editore_norm": "Babalibri",
-      "collocazioni": [
-       "R|ALBI|SAK"
-      ],
-      "copie_ragionieri": 1,
-      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RMS2631080"
-     },
-     {
-      "titolo": "Akiko e il pianeta Smoo / Mark Crilley",
-      "anno": "2003",
-      "editore_norm": "Mondadori",
-      "collocazioni": [
-       "R|ARA|CRI"
-      ],
-      "copie_ragionieri": 1,
-      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00001190"
-     },
-     {
-      "titolo": "Akiko e la grande muraglia di Trudd / Mark Crilley",
-      "anno": "2003",
-      "editore_norm": "Mondadori",
-      "collocazioni": [
-       "R|ARA|CRI"
-      ],
-      "copie_ragionieri": 1,
-      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00001191"
-     },
-     {
-      "titolo": "Akiko nel castello di Alia Rellapor / Mark Crilley",
-      "anno": "2003",
-      "editore_norm": "Mondadori",
-      "collocazioni": [
-       "R|ARA|CRI"
-      ],
-      "copie_ragionieri": 1,
-      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00001192"
-     }
-    ]
-   },
-   "record": [
-    {
-     "titolo": "Akiko e il pianeta Smoo / Mark Crilley",
-     "anno": "2003",
-     "editore_norm": "Mondadori",
-     "collocazioni": [
-      "R|ARA|CRI"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00001190"
-    },
-    {
-     "titolo": "Akiko e la grande muraglia di Trudd / Mark Crilley",
-     "anno": "2003",
-     "editore_norm": "Mondadori",
-     "collocazioni": [
-      "R|ARA|CRI"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00001191"
-    },
-    {
-     "titolo": "Akiko nel castello di Alia Rellapor / Mark Crilley",
-     "anno": "2003",
-     "editore_norm": "Mondadori",
-     "collocazioni": [
-      "R|ARA|CRI"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00001192"
-    }
-   ]
-  },
-  {
-   "voce": {
-    "nota": "Fumetti",
     "sezione": "Latinoamericani",
     "titolo": "El Eternauta",
     "autore": "Oesterheld & Solano López",
@@ -5031,41 +4712,6 @@
      ],
      "copie_ragionieri": 1,
      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/MIL0839390"
-    }
-   ]
-  },
-  {
-   "voce": {
-    "nota": "Graphic Novel",
-    "sezione": "Britannici",
-    "titolo": "Gemma Bovery",
-    "autore": "Posy Simmonds",
-    "trovati": 1,
-    "query_usata": "Gemma Bovery",
-    "autore_in_catalogo": 0,
-    "record": [
-     {
-      "titolo": "Gemma Bovery / un film di Anne Fontaine ; sceneggiatura, adattamento e dialoghi Pascal Bonitzer e Anne Fontaine ; tratto dalla graphic novel di Posy Simmonds ; musiche originali di Bruno Coulais ; fotografia Christophe Beaucarne ; prodotto da Philippe Carcassonne, Matthieu Tarot, Sidonie Dumas & Francis Boespflug ; [cast] Fabrice Luchini, Gemma Arterton, Jason Flemyng... [et al.]",
-      "anno": "2015",
-      "editore_norm": "",
-      "collocazioni": [
-       "MM|DVD|FON"
-      ],
-      "copie_ragionieri": 1,
-      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/MOD1650723"
-     }
-    ]
-   },
-   "record": [
-    {
-     "titolo": "Gemma Bovery / un film di Anne Fontaine ; sceneggiatura, adattamento e dialoghi Pascal Bonitzer e Anne Fontaine ; tratto dalla graphic novel di Posy Simmonds ; musiche originali di Bruno Coulais ; fotografia Christophe Beaucarne ; prodotto da Philippe Carcassonne, Matthieu Tarot, Sidonie Dumas & Francis Boespflug ; [cast] Fabrice Luchini, Gemma Arterton, Jason Flemyng... [et al.]",
-     "anno": "2015",
-     "editore_norm": "",
-     "collocazioni": [
-      "MM|DVD|FON"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/MOD1650723"
     }
    ]
   },
@@ -5601,61 +5247,6 @@
      ],
      "copie_ragionieri": 1,
      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/E200100347339"
-    }
-   ]
-  },
-  {
-   "voce": {
-    "nota": "Graphic Novel",
-    "sezione": "Italiani",
-    "titolo": "Una ballata del mare salato",
-    "autore": "Hugo Pratt",
-    "trovati": 2,
-    "query_usata": "Una ballata del mare salato",
-    "autore_in_catalogo": 0,
-    "record": [
-     {
-      "titolo": "Corto Maltese : una ballata del mare salato / Hugo Pratt",
-      "anno": "1995",
-      "editore_norm": "",
-      "collocazioni": [
-       "MAG|8739"
-      ],
-      "copie_ragionieri": 1,
-      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/TWTVP00007559"
-     },
-     {
-      "titolo": "Corto Maltese : una ballata del mare salato / dall'opera originale di Hugo Pratt",
-      "anno": "2003",
-      "editore_norm": "",
-      "collocazioni": [
-       "R|DVD|COR"
-      ],
-      "copie_ragionieri": 1,
-      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00018981"
-     }
-    ]
-   },
-   "record": [
-    {
-     "titolo": "Corto Maltese : una ballata del mare salato / Hugo Pratt",
-     "anno": "1995",
-     "editore_norm": "",
-     "collocazioni": [
-      "MAG|8739"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/TWTVP00007559"
-    },
-    {
-     "titolo": "Corto Maltese : una ballata del mare salato / dall'opera originale di Hugo Pratt",
-     "anno": "2003",
-     "editore_norm": "",
-     "collocazioni": [
-      "R|DVD|COR"
-     ],
-     "copie_ragionieri": 1,
-     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00018981"
     }
    ]
   },
@@ -6911,6 +6502,156 @@
      "_dubbio": true
     }
    ]
+  },
+  {
+   "voce": {
+    "nota": "Fumetti",
+    "sezione": "Umoristici IT",
+    "titolo": "Il Signor Bonaventura",
+    "autore": "Sto Sergio Tofano",
+    "trovati": 12,
+    "query_usata": "Bonaventura",
+    "autore_in_catalogo": 0,
+    "record": [
+     {
+      "titolo": "3: Bonaventura: la perfezione cristiana / a cura di Claudio Leonardi ; commento di Daniele Solvi",
+      "anno": "2012",
+      "editore_norm": "",
+      "collocazioni": [
+       "271.3|LET"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/UBO3972992"
+     },
+     {
+      "titolo": "Vol. 4: Bonaventura : la Leggenda di Francesco / a cura di Claudio Leonardi ; traduzione di Mauro Donnini ; commento di Daniele Solvi",
+      "anno": "2013",
+      "editore_norm": "",
+      "collocazioni": [
+       "271.3|LET"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/PAV0073083"
+     },
+     {
+      "titolo": "A un amico fraterno : lettere a Bonaventura Tecchi / Carlo Emilio Gadda ; a cura di Marcello Carlino",
+      "anno": "1984",
+      "editore_norm": "Garzanti",
+      "collocazioni": [
+       "853.914|GAD",
+       "Gelli|3169"
+      ],
+      "copie_ragionieri": 2,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RAV0087995"
+     },
+     {
+      "titolo": "Bonaventura Tecchi / di Giuseppe Amoroso",
+      "anno": "1976",
+      "editore_norm": "La Nuova Italia",
+      "collocazioni": [
+       "853.914|TEC",
+       "MAG|5620"
+      ],
+      "copie_ragionieri": 2,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00009651"
+     },
+     {
+      "titolo": "Francesco e l'invenzione delle stimmate : una storia per parole e immagini fino a Bonaventura e Giotto / Chiara Frugoni",
+      "anno": "1993",
+      "editore_norm": "G. Einaudi",
+      "collocazioni": [
+       "Gelli|2231"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/VEA0047979"
+     },
+     {
+      "titolo": "I notturni di Bonaventura",
+      "anno": "1950",
+      "editore_norm": "Rizzoli",
+      "collocazioni": [
+       "83/185"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00054253"
+     },
+     {
+      "titolo": "Il teatro di Bonaventura / Sto ; illustrato da Sto e Rosetta",
+      "anno": "1930",
+      "editore_norm": "Alpes",
+      "collocazioni": [
+       "84/466"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00080434"
+     },
+     {
+      "titolo": "L'isola appassionata : (con tre nuovi racconti) / Bonaventura Tecchi",
+      "anno": "1973",
+      "editore_norm": "",
+      "collocazioni": [
+       "Gelli|1877"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SBL0465628"
+     },
+     {
+      "titolo": "Qui comincia la sventura del signor Bonaventura / Sto [i.e. Sergio Tofano] ; a cura di Alessandro Tinterri",
+      "anno": "1995",
+      "editore_norm": "Adelphi",
+      "collocazioni": [
+       "84/3505",
+       "852.912|STO"
+      ],
+      "copie_ragionieri": 2,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00065912"
+     },
+     {
+      "titolo": "S. Francesco e s. Bonaventura : un'interpretazione storico-salvifica degli affreschi della navata nella Chiesa superiore di San Francesco in Assisi alla luce della teologia di san Bonaventura / Gerhard Ruf",
+      "anno": "1974",
+      "editore_norm": "Casa editrice francescana",
+      "collocazioni": [
+       "759.5|RUF"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SBL0570496"
+     },
+     {
+      "titolo": "San Francesco d'Assisi : con illustrazioni tolte dalla Leggenda di S. Bonaventura (anno 1522) e sei tavole fuori testo / Tommaso Gallarati Scotti",
+      "anno": "1926",
+      "editore_norm": "Soc. Tip. Leonardo da Vinci",
+      "collocazioni": [
+       "2/509"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/LO11183360"
+     },
+     {
+      "titolo": "Una losca congiura ovverosia Barbariccia contro Bonaventura : Commedia in tre atti / Sto ; illustrazioni di Sto",
+      "anno": "1952",
+      "editore_norm": "Rizzoli",
+      "collocazioni": [
+       "84/2806"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00044386"
+     }
+    ]
+   },
+   "record": [
+    {
+     "titolo": "Qui comincia la sventura del signor Bonaventura / Sto [i.e. Sergio Tofano] ; a cura di Alessandro Tinterri",
+     "anno": "1995",
+     "editore_norm": "Adelphi",
+     "collocazioni": [
+      "84/3505",
+      "852.912|STO"
+     ],
+     "copie_ragionieri": 2,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00065912"
+    }
+   ],
+   "nota": "'Qui comincia la sventura...' Adelphi 1995, 116 p. con 3 c. di tav., collocato in 852.912 (letteratura): da vedere se è la raccolta delle tavole"
   }
  ],
  "assenti": [
@@ -8352,6 +8093,164 @@
    "query_usata": "Exit Wounds",
    "autore_in_catalogo": 3,
    "record": []
+  },
+  {
+   "nota": "Fumetti",
+   "sezione": "Anglofoni",
+   "titolo": "Hellboy",
+   "autore": "Mike Mignola",
+   "trovati": 3,
+   "query_usata": "Hellboy",
+   "autore_in_catalogo": 0,
+   "record": [
+    {
+     "titolo": "Hellboy / diretto da Neil Marshall ; sceneggiatura di Andrew Cosby ; musica di Benjamin Wallfisch ; basato sul fumetto creato da MIke Mignola ; direttore della fotografia Lorenzo Senatore ; prodotto da Lawrence Gordon, Carl Hampe, Lloyd Levin ... [et al.] ; [interpreti] David Harbour, Milla Jovovich, Jan McShane ... [et al.]",
+     "anno": "2019",
+     "editore_norm": "Eagle Pictures [distributore]",
+     "collocazioni": [
+      "MM|DVD|HEL"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/CAG2088606"
+    },
+    {
+     "titolo": "Hellboy / directed by Guillermo Del Toro ; music by Marco Beltrami ; based upon the Dark horse comic created by Mike Mignola ; screen story by Guillermo Del Toro & Peter Briggs ; screenplay by Guillermo Del Toro",
+     "anno": "",
+     "editore_norm": "",
+     "collocazioni": [
+      "MM|DVD|HEL"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/MOD1571090"
+    },
+    {
+     "titolo": "Hellboy : the golden army / directed by Guillermo Del Toro ; based upon the Dark horse comic book created by Mike Mignola ; director of photography Guillermo Navarro ; music by Danny Elfman",
+     "anno": "2008",
+     "editore_norm": "",
+     "collocazioni": [
+      "MM|DVD|HEL"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/LO11223952"
+    }
+   ],
+   "motivo_declassamento": "solo i tre DVD dei film (MM|DVD|HEL)"
+  },
+  {
+   "nota": "Fumetti",
+   "sezione": "Anglofoni",
+   "titolo": "Akiko",
+   "autore": "Mark Crilley",
+   "trovati": 5,
+   "query_usata": "Akiko",
+   "autore_in_catalogo": 0,
+   "record": [
+    {
+     "titolo": "Akiko Assò e la centrale degli incubi / Alessandro Gatti ; illustrazioni di Laura Re",
+     "anno": "2017",
+     "editore_norm": "Lapis",
+     "collocazioni": [
+      "R|AZZ|QUE"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/UBO4246139"
+    },
+    {
+     "titolo": "Akiko e il palloncino / Komako Sakai",
+     "anno": "2013",
+     "editore_norm": "Babalibri",
+     "collocazioni": [
+      "R|ALBI|SAK"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RMS2631080"
+    },
+    {
+     "titolo": "Akiko e il pianeta Smoo / Mark Crilley",
+     "anno": "2003",
+     "editore_norm": "Mondadori",
+     "collocazioni": [
+      "R|ARA|CRI"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00001190"
+    },
+    {
+     "titolo": "Akiko e la grande muraglia di Trudd / Mark Crilley",
+     "anno": "2003",
+     "editore_norm": "Mondadori",
+     "collocazioni": [
+      "R|ARA|CRI"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00001191"
+    },
+    {
+     "titolo": "Akiko nel castello di Alia Rellapor / Mark Crilley",
+     "anno": "2003",
+     "editore_norm": "Mondadori",
+     "collocazioni": [
+      "R|ARA|CRI"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00001192"
+    }
+   ],
+   "motivo_declassamento": "i romanzi per ragazzi di Crilley (Mondadori, R|ARA|CRI), non il fumetto"
+  },
+  {
+   "nota": "Graphic Novel",
+   "sezione": "Britannici",
+   "titolo": "Gemma Bovery",
+   "autore": "Posy Simmonds",
+   "trovati": 1,
+   "query_usata": "Gemma Bovery",
+   "autore_in_catalogo": 0,
+   "record": [
+    {
+     "titolo": "Gemma Bovery / un film di Anne Fontaine ; sceneggiatura, adattamento e dialoghi Pascal Bonitzer e Anne Fontaine ; tratto dalla graphic novel di Posy Simmonds ; musiche originali di Bruno Coulais ; fotografia Christophe Beaucarne ; prodotto da Philippe Carcassonne, Matthieu Tarot, Sidonie Dumas & Francis Boespflug ; [cast] Fabrice Luchini, Gemma Arterton, Jason Flemyng... [et al.]",
+     "anno": "2015",
+     "editore_norm": "",
+     "collocazioni": [
+      "MM|DVD|FON"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/MOD1650723"
+    }
+   ],
+   "motivo_declassamento": "solo il DVD del film di Anne Fontaine"
+  },
+  {
+   "nota": "Graphic Novel",
+   "sezione": "Italiani",
+   "titolo": "Una ballata del mare salato",
+   "autore": "Hugo Pratt",
+   "trovati": 2,
+   "query_usata": "Una ballata del mare salato",
+   "autore_in_catalogo": 0,
+   "record": [
+    {
+     "titolo": "Corto Maltese : una ballata del mare salato / Hugo Pratt",
+     "anno": "1995",
+     "editore_norm": "",
+     "collocazioni": [
+      "MAG|8739"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/TWTVP00007559"
+    },
+    {
+     "titolo": "Corto Maltese : una ballata del mare salato / dall'opera originale di Hugo Pratt",
+     "anno": "2003",
+     "editore_norm": "",
+     "collocazioni": [
+      "R|DVD|COR"
+     ],
+     "copie_ragionieri": 1,
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00018981"
+    }
+   ],
+   "motivo_declassamento": "romanzo Einaudi 'I coralli', 227 p., Dewey 853.914 + DVD del film"
   }
  ],
  "recuperati_manualmente": [

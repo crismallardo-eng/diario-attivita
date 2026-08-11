@@ -112,3 +112,20 @@ non ricarica il server. Per un aggiornamento reale, cancellare `.cache/` prima.
 - `autore` ed `editore` sono ricavati per pattern dalla descrizione
   bibliografica: in circa un record su cinque l'editore resta vuoto perché la
   descrizione non segue lo schema `Luogo : Editore, anno`.
+
+## Trappola da conoscere: stessa opera, supporto diverso
+
+Cercare per titolo non basta: la Ragionieri possiede spesso la **novelizzazione
+in prosa** o il **DVD** di un'opera a fumetti, non il fumetto. Casi verificati:
+
+| Titolo | Cosa c'è davvero |
+|---|---|
+| Una ballata del mare salato | romanzo Einaudi "I coralli", 227 p., Dewey 853.914 + DVD del film |
+| Hellboy | solo i tre DVD dei film (`MM|DVD|HEL`) |
+| Akiko | i romanzi per ragazzi di Mark Crilley (Mondadori, `R|ARA|CRI`) |
+| Gemma Bovery | solo il DVD del film di Anne Fontaine |
+
+Il controllo affidabile è la descrizione fisica (`: fumetti ;` o `in gran parte
+ill.`) e la classificazione: `741.5x` è fumetto, `8xx` è letteratura. Poema a
+fumetti di Buzzati, per esempio, sta in magazzino ma è classificato `741.59|BUZ`
+ed è il fumetto vero.
