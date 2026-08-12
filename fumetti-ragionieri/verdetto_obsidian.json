@@ -5785,6 +5785,293 @@
      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/TO01564354"
     }
    ]
+  },
+  {
+   "voce": {
+    "nota": "Fumetti",
+    "sezione": "Avventura & Bonelli",
+    "titolo": "Julia",
+    "autore": "Giancarlo Berardi",
+    "trovati": 50,
+    "query_usata": "Julia",
+    "autore_in_catalogo": 0,
+    "record": [
+     {
+      "titolo": "1: La spia della corona / Julia Quinn ; traduzione di Francesco Saba Sardi",
+      "anno": "2022",
+      "editore_norm": "Mondadori",
+      "collocazioni": [
+       "Rosa|QUI"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/TO10039419"
+     },
+     {
+      "titolo": "2: Io ti avrò / Julia Quinn ; traduzione di Silvia Maria Cristina Calandra",
+      "anno": "2022",
+      "editore_norm": "Mondadori",
+      "collocazioni": [
+       "Rosa|QUI"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/TO10039373"
+     },
+     {
+      "titolo": "L'imperatrice che sfidò gli dei / Santiago Posteguillo ; traduzione di Adele Ricciotti",
+      "anno": "2020",
+      "editore_norm": "Piemme",
+      "collocazioni": [
+       "N|863.7|POS"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/MIL0991513"
+     },
+     {
+      "titolo": "Vol. 2: Una dolcissima bugia / Julia Quinn ; traduzione di Adriana Colombo e Paola Frezza",
+      "anno": "2024",
+      "editore_norm": "Mondadori",
+      "collocazioni": [
+       "Rosa|QUI"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RE20014245"
+     },
+     {
+      "titolo": "Vol. 3: L'altra Miss Bridgerton / Julia Quinn ; traduzione di Bertha Smiths-Jacob",
+      "anno": "2024",
+      "editore_norm": "Mondadori",
+      "collocazioni": [
+       "Rosa|QUI"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RE20014246"
+     },
+     {
+      "titolo": "Vol. 4: Due cuori e uno scandalo / Julia Quinn ; traduzione di Bertha Smiths-Jacob",
+      "anno": "2024",
+      "editore_norm": "Mondadori",
+      "collocazioni": [
+       "Rosa|QUI"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RE20014247"
+     },
+     {
+      "titolo": "Vol. 1: Il duca e io / Julia Quinn ; traduzione di Milena Fiumali",
+      "anno": "2020",
+      "editore_norm": "Oscar Mondadori",
+      "collocazioni": [
+       "Coop Rosa|QUI",
+       "Rosa|QUI"
+      ],
+      "copie_ragionieri": 2,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/LO11798245"
+     },
+     {
+      "titolo": "Vol. 2: Il visconte che mi amava / Julia Quinn ; traduzione di Antonella Pieretti",
+      "anno": "2020",
+      "editore_norm": "Mondadori",
+      "collocazioni": [
+       "Rosa|QUI"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RCA0840194"
+     },
+     {
+      "titolo": "Vol. 3: La proposta di un gentiluomo / Julia Quinn ; traduzione di Giuseppe Settanni",
+      "anno": "2020",
+      "editore_norm": "Oscar Mondadori",
+      "collocazioni": [
+       "Rosa|QUI"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RCA0840195"
+     },
+     {
+      "titolo": "Vol. 4: Un uomo da conquistare / Julia Quinn ; traduzione di Antonella Pieretti",
+      "anno": "2021",
+      "editore_norm": "Oscar Mondadori",
+      "collocazioni": [
+       "Rosa|QUI"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/VIA0446287"
+     },
+     {
+      "titolo": "Vol. 6: Amare un libertino / Julia Quinn ; traduzione di Antonella Pieretti",
+      "anno": "2021",
+      "editore_norm": "Oscar Mondadori",
+      "collocazioni": [
+       "Rosa|QUI"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/PAR1273653"
+     },
+     {
+      "titolo": "Vol. 7: Tutto in un bacio / Julia Quinn ; traduzione di Antonella Pieretti",
+      "anno": "2021",
+      "editore_norm": "Mondadori",
+      "collocazioni": [
+       "Rosa|QUI"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/LZ10006126"
+     }
+    ]
+   },
+   "record": [
+    {
+     "titolo": "Julia / Giancarlo Berardi",
+     "anno": "2003",
+     "collocazioni": [
+      "F|CLA|30"
+     ],
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/ricerca?isPostBack=1&autore=Berardi"
+    }
+   ]
+  },
+  {
+   "voce": {
+    "nota": "Fumetti",
+    "sezione": "Franco-belgi",
+    "titolo": "XIII",
+    "autore": "Van Hamme & Vance",
+    "trovati": 36,
+    "query_usata": "XIII",
+    "autore_in_catalogo": 0,
+    "record": [
+     {
+      "titolo": "\"Libertas\" : lettera enciclica di sua santità Leone XIII sulla libertà umana",
+      "anno": "1964",
+      "editore_norm": "",
+      "collocazioni": [
+       "Resistenza|2031/1"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00043232"
+     },
+     {
+      "titolo": "Angelicus Concentus : gli strumenti musicali nei dipinti di area senese e grossetana dei secoli XIII-XVII / Luca Serravalle ; prefazione di Stefano Adami",
+      "anno": "2006",
+      "editore_norm": "",
+      "collocazioni": [
+       "758.978|419|SER"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00003428"
+     },
+     {
+      "titolo": "Biennale di Venezia 1922 : Catalogo : XIII Esposizione Internazionale d'Arte della città di Venezia, 1922",
+      "anno": "1922",
+      "editore_norm": "",
+      "collocazioni": [
+       "70/2742"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00009057"
+     },
+     {
+      "titolo": "Calendario per l'anno 1935-XIII : Centenario di Giosuè Carducci / [casa editrice Zanichelli N.] ; [Diego Pettinelli disegnò ed incise]",
+      "anno": "1935",
+      "editore_norm": "Zanichelli",
+      "collocazioni": [
+       "BB|499"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00010886"
+     },
+     {
+      "titolo": "Carteggio universale di Cosimo I De Medici/XIII : Archivio di Stato di Firenze : inventario XIII -(1554-1557) : Mediceo del principato : filze 515-529A / Regione Toscana, Giunta regionale ; a cura Marcella Morviducci",
+      "anno": "2001",
+      "editore_norm": "Regione Toscana",
+      "collocazioni": [
+       "MAG|2628"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00012539"
+     },
+     {
+      "titolo": "Castelli del contado fiorentino nei secoli XII e XIII / Riccardo Francovich",
+      "anno": "1976",
+      "editore_norm": "Clusf",
+      "collocazioni": [
+       "sez.l.|945.51|FRA"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00013004"
+     },
+     {
+      "titolo": "Concerto in Do minore per violino, archi e continuo WV Cv-XIII-98 ; Concerto in solo per 2 violini, archi e continuo WV C-XIII-87 ; Concerto in Re maggiore per violino, archi e continuo WV C-XIII-71 ; Concerto in Re minore per violino, archi e continuo WV C-XIII-75 / Johann Gottlieb Graun ; Federico Guglielmo violino ; Accademia d'Archi Arrigoni ; Christian Sebastianutto violino solo",
+      "anno": "2022",
+      "editore_norm": "Michelangeli",
+      "collocazioni": [
+       "MM|CLA|GRA"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/REA0330152"
+     },
+     {
+      "titolo": "Documenti politici dal Xii al XIIItredicesimo congresso",
+      "anno": "1972",
+      "editore_norm": "",
+      "collocazioni": [
+       "FM|406"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00023779"
+     },
+     {
+      "titolo": "Filmworks XIII : 2002 Volume Three : Invitation To A Suicide / John Zorn",
+      "anno": "2002",
+      "editore_norm": "Tzadick",
+      "collocazioni": [
+       "FB|JAZ|ZOR"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/RT10099583"
+     },
+     {
+      "titolo": "Il canto XIII del Paradiso letto da Giuseppe Vandelli nella sala di Dante in Orsanmichele / Dante Alighieri ; Giuseppe Vandelli",
+      "anno": "1933",
+      "editore_norm": "Sansoni",
+      "collocazioni": [
+       "81/1784"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00011595"
+     },
+     {
+      "titolo": "Il canto XIII del Purgatorio letto da Albino Zenatti nella sala di Dante in Orsanmichele / Dante Alighieri ; Albino Zenatti",
+      "anno": "",
+      "editore_norm": "",
+      "collocazioni": [
+       "81/498"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00011596"
+     },
+     {
+      "titolo": "Il centonovelle : cento novelle scelte e commentate di scrittori italiani e stranieri dal XIII al XX secolo / Giuseppe Parisi",
+      "anno": "",
+      "editore_norm": "",
+      "collocazioni": [
+       "84/1533"
+      ],
+      "copie_ragionieri": 1,
+      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00013752"
+     }
+    ]
+   },
+   "record": [
+    {
+     "titolo": "13Tredici* : l'uomo senza passato / Jean Van Hamme, William Vance",
+     "anno": "2005",
+     "collocazioni": [
+      "F|CLA|54"
+     ],
+     "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/ricerca?isPostBack=1&titolo=13Tredici"
+    }
+   ]
   }
  ],
  "da_verificare": [
@@ -6651,7 +6938,7 @@
      "url": "https://opac.comune.firenze.it/it/now/biblioteca-ragionieri-sesto/record/SES00065912"
     }
    ],
-   "nota": "'Qui comincia la sventura...' Adelphi 1995, 116 p. con 3 c. di tav., collocato in 852.912 (letteratura): da vedere se è la raccolta delle tavole"
+   "nota": "Adelphi 1995, 116 p. con 3 c. di tav., collocato in 852.912 (letteratura)"
   }
  ],
  "assenti": [
@@ -8251,16 +8538,6 @@
     }
    ],
    "motivo_declassamento": "romanzo Einaudi 'I coralli', 227 p., Dewey 853.914 + DVD del film"
-  }
- ],
- "recuperati_manualmente": [
-  {
-   "titolo": "Julia",
-   "record": "Julia / Giancarlo Berardi (2003) F|CLA|30"
-  },
-  {
-   "titolo": "XIII",
-   "record": "13Tredici : l'uomo senza passato / Van Hamme, Vance (2005) F|CLA|54"
   }
  ]
 }
