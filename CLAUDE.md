@@ -4,6 +4,8 @@
 `diario_attivita.json` nella stessa cartella di questo file.
 
 ## Comportamento principale
+Scrivi e fai push **direttamente sul branch `master`** (niente branch di lavoro né pull request): il report su GitHub legge da `master`.
+
 Quando l'utente menziona un'attività svolta, aggiungila **subito** al campo `log` del JSON senza chiedere conferma prima. Dopo averla scritta, mostra la voce inserita e basta.
 
 Formato di ogni voce:
