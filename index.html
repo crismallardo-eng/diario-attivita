@@ -783,7 +783,8 @@ function renderWishlistSection(groups){
     var itemsHtml = (g.items||[]).map(function(it){
       var doneCls = it.fatto ? ' done' : '';
       var check = it.fatto ? '&#10003;' : '';
-      var meta = it.fatto && it.data_fatto ? '<span class="wl-meta">'+esc(it.data_fatto)+'</span>' : '';
+      var meta = it.fatto && it.data_fatto ? '<span class="wl-meta">'+esc(it.data_fatto)+'</span>'
+               : (!it.fatto && it.scadenza ? '<span class="wl-meta" style="color:#f87171">entro '+esc(it.scadenza.split('-').reverse().join('/'))+'</span>' : '');
       return '<div class="wl-item'+doneCls+'"><div class="wl-checkbox">'+check+'</div><div class="wl-name">'+esc(it.nome)+'</div>'+meta+'</div>';
     }).join('');
     return '<div class="wl-group"><div class="wl-group-title">'+esc(g.gruppo)+'</div><div class="wl-items">'+itemsHtml+'</div></div>';

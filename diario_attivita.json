@@ -38,6 +38,15 @@
         "items": [
           {"nome": "Kit cold brew", "fatto": false}
         ]
+      },
+      {
+        "gruppo": "Bici",
+        "items": [
+          {"nome": "Catenacci/lucchetti", "fatto": false},
+          {"nome": "Casco", "fatto": false},
+          {"nome": "Specchietto", "fatto": false},
+          {"nome": "Giubbotto catarifrangente (per il buio, opzionale)", "fatto": false}
+        ]
       }
     ],
     "Locali": [
@@ -96,6 +105,18 @@
         "gruppo": "Gaming",
         "items": [
           {"nome": "Configurare RetroArch per giocarci", "fatto": false}
+        ]
+      },
+      {
+        "gruppo": "Commissioni",
+        "items": [
+          {"nome": "Ritirare il Rosanta in farmacia", "fatto": false}
+        ]
+      },
+      {
+        "gruppo": "Concorsi",
+        "items": [
+          {"nome": "Pagare tassa concorso Coadiutore – Conservatorio di Firenze (scad. ufficiale 30/11)", "fatto": false, "scadenza": "2026-11-29"}
         ]
       }
     ],
