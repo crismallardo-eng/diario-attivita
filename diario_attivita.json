@@ -98,7 +98,8 @@
       {
         "gruppo": "Cura personale",
         "items": [
-          {"nome": "Tagliarsi i capelli", "fatto": false}
+          {"nome": "Tagliarsi i capelli", "fatto": false},
+          {"nome": "Rasarsi la schiena", "fatto": false}
         ]
       },
       {
