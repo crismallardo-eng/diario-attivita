@@ -230,7 +230,7 @@ footer{text-align:center;font-size:.68rem;color:#222;margin-top:24px}
     <div><div class="macro-title">Tempo libero</div><div class="macro-num" id="macro-libero-num">-</div><div class="macro-sub">Letture &middot; Visioni &middot; Outdoor &middot; Musica &middot; Clarinetto &middot; Approfondimenti &middot; Videogiochi</div></div>
   </div>
   <div class="macro-card misero"><div class="macro-icon">&#128548;</div>
-    <div><div class="macro-title">Tempo misero</div><div class="macro-num" id="macro-misero-num">-</div><div class="macro-sub">Palestra &middot; Concorsi &middot; Casa</div></div>
+    <div><div class="macro-title">Tempo misero</div><div class="macro-num" id="macro-misero-num">-</div><div class="macro-sub">Palestra &middot; Concorsi &middot; Casa &middot; Salute</div></div>
   </div>
 </div>
 
@@ -408,6 +408,7 @@ function getCatColor(c){
   if(c.indexOf('Concorsi')>=0)return '#84cc16';
   if(c.indexOf('Casa')>=0)return '#f97316';
   if(c.indexOf('Videogiochi')>=0)return '#14b8a6';
+  if(c.indexOf('Salute')>=0)return '#e11d48';
   return '#888';
 }
 function getCatEmoji(c){
@@ -421,6 +422,7 @@ function getCatEmoji(c){
   if(c.indexOf('Concorsi')>=0)return '&#128221;';
   if(c.indexOf('Casa')>=0)return '&#127968;';
   if(c.indexOf('Videogiochi')>=0)return '&#127918;';
+  if(c.indexOf('Salute')>=0)return '&#129658;';
   return '&#8226;';
 }
 

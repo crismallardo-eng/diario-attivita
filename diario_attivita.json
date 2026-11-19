@@ -1,23 +1,24 @@
 {
   "macro_gruppi": {
     "Tempo libero": ["Letture", "Visioni", "Outdoor", "Approfondimenti", "Clarinetto", "Musica", "Videogiochi"],
-    "Tempo misero": ["Palestra/Attività fisica", "Concorsi", "Casa"]
+    "Tempo misero": ["Palestra/Attività fisica", "Concorsi", "Casa", "Salute"]
   },
   "categorie": {
     "Letture": ["Libro", "Graphic Novel", "Fumetto", "Manga", "Altro"],
-    "Visioni": ["Film", "Serie TV", "Cartone", "Anime", "Documentario", "Altro"],
+    "Visioni": ["Film", "Serie TV", "Cartone", "Anime", "Documentario", "Comedy show", "Altro"],
     "Outdoor": ["Passeggiata", "Biblioteca", "Museo/Mostra", "Bar/Caffè/Pub", "Gelataio/Pasticceria", "Ristoranti", "Parchi", "Mercati", "Cinema", "Concerti", "Altro"],
-    "Approfondimenti": ["Storia uomo", "Storia arte", "Storia musica", "Storia letteratura", "Storia terra", "Storia spazio", "Decennio musicale", "Gruppo/Artista", "Teoria musicale", "Altro"],
+    "Approfondimenti": ["Storia uomo", "Storia arte", "Storia musica", "Storia letteratura", "Storia terra", "Storia spazio", "Decennio musicale", "Gruppo/Artista", "Teoria musicale", "Attualità/Politica", "Altro"],
     "Clarinetto": ["Lezione", "Esercizi", "Teoria"],
     "Palestra/Attività fisica": ["Upper", "Lower", "Total", "Corsa"],
     "Concorsi": ["Scrittura appunti", "Risistemazione appunti", "Ripasso appunti", "Studio/sottolineatura manuale", "Quiz"],
     "Musica": ["Riascolti", "Nuovi ascolti", "Per approfondimenti"],
     "Casa": ["Pulizie", "Spesa", "Commissioni", "Burocrazia", "Cucina", "Altro"],
-    "Videogiochi": ["Indie", "RPG", "Avventura", "Platform", "Strategia", "Altro"]
+    "Videogiochi": ["Indie", "RPG", "Avventura", "Platform", "Strategia", "Altro"],
+    "Salute": ["Dieta", "Esami medici", "Visita", "Altro"]
   },
   "obiettivi_settimanali": [
-    {"categoria": "Visioni", "sottocategoria": "Film", "minimo": 1, "etichetta": "Film"},
-    {"categoria": "Palestra/Attività fisica", "sottocategoria": null, "minimo": 2, "etichetta": "Palestra"},
+    {"categoria": "Concorsi", "sottocategoria": null, "minimo": 7, "etichetta": "Concorsi", "nota": "almeno 1h al giorno"},
+    {"categoria": "Palestra/Attività fisica", "sottocategoria": null, "minimo": 3, "etichetta": "Palestra"},
     {"categoria": "Palestra/Attività fisica", "sottocategoria": "Corsa", "minimo": 1, "etichetta": "Corsa"}
   ],
   "wishlist": {
@@ -244,7 +245,10 @@
     {"categoria": "Outdoor", "sottocategoria": "Concerti", "minimo": 1, "etichetta": "Concerto"},
     {"categoria": "Outdoor", "sottocategoria": "Cinema", "minimo": 1, "etichetta": "Cinema"},
     {"categoria": "Outdoor", "sottocategoria": "Biblioteca", "minimo": 1, "etichetta": "Biblioteca"},
-    {"categoria": "Casa", "sottocategoria": "Cucina", "minimo": 1, "etichetta": "Ricetta"}
+    {"categoria": "Casa", "sottocategoria": "Cucina", "minimo": 1, "etichetta": "Ricetta"},
+    {"categoria": "Visioni", "sottocategoria": "Film", "minimo": 2, "etichetta": "Film"},
+    {"categoria": "Visioni", "sottocategoria": "Cartone", "minimo": 1, "etichetta": "Cartone"},
+    {"categoria": "Letture", "sottocategoria": "Graphic Novel", "minimo": 1, "etichetta": "Graphic Novel"}
   ],
   "log": [
     {"data": "2026-05-01", "categoria": "Outdoor", "sottocategoria": "Parchi", "note": "Giardino orticoltura, mercato centrale, aperitivo, poké"},
