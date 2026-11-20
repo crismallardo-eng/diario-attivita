@@ -24,23 +24,6 @@
   "wishlist": {
     "Acquisti": [
       {
-        "gruppo": "Vestiti estivi",
-        "items": [
-          {"nome": "Magliette", "fatto": false},
-          {"nome": "Camicie", "fatto": false},
-          {"nome": "Overshirt", "fatto": false},
-          {"nome": "Pantaloni", "fatto": false},
-          {"nome": "Calzini", "fatto": false},
-          {"nome": "Scarpe", "fatto": false}
-        ]
-      },
-      {
-        "gruppo": "Cucina",
-        "items": [
-          {"nome": "Kit cold brew", "fatto": false}
-        ]
-      },
-      {
         "gruppo": "Bici",
         "items": [
           {"nome": "Catenacci/lucchetti", "fatto": false},
@@ -113,7 +96,7 @@
       {
         "gruppo": "Gaming",
         "items": [
-          {"nome": "Configurare RetroArch per giocarci", "fatto": false}
+          {"nome": "Configurare RetroArch per giocarci", "fatto": true, "data_fatto": "2026-11-20"}
         ]
       },
       {
