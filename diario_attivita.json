@@ -49,6 +49,12 @@
           {"nome": "Giubbotto catarifrangente (per il buio, opzionale)", "fatto": false},
           {"nome": "Cestino", "fatto": false}
         ]
+      },
+      {
+        "gruppo": "Clarinetto",
+        "items": [
+          {"nome": "Kit manutenzione e pulizia clarinetto", "fatto": false}
+        ]
       }
     ],
     "Locali": [
