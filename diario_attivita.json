@@ -46,7 +46,8 @@
           {"nome": "Catenacci/lucchetti", "fatto": false},
           {"nome": "Casco", "fatto": false},
           {"nome": "Specchietto", "fatto": false},
-          {"nome": "Giubbotto catarifrangente (per il buio, opzionale)", "fatto": false}
+          {"nome": "Giubbotto catarifrangente (per il buio, opzionale)", "fatto": false},
+          {"nome": "Cestino", "fatto": false}
         ]
       }
     ],
