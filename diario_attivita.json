@@ -103,7 +103,8 @@
         "gruppo": "Commissioni",
         "items": [
           {"nome": "Ritirare il Rosanta in farmacia", "fatto": false},
-          {"nome": "Prenotare appuntamento al Comune per ristampa PIN/PUK della CIE (mia e della mia ragazza)", "fatto": false}
+          {"nome": "Prenotare appuntamento al Comune per ristampa PIN/PUK della CIE (mia e della mia ragazza)", "fatto": true, "data_fatto": "2026-11-22"},
+          {"nome": "Anagrafe Parterre (Cubo 1 - Q2), lun 30/11 ore 10:20: ristampa PIN/PUK CIE, andare insieme con entrambe le CIE (cod. Z9ZUVLOAJ8004COOWW2QQ)", "fatto": false, "scadenza": "2026-11-30"}
         ]
       },
       {
@@ -441,6 +442,7 @@
     {"data": "2026-11-21", "categoria": "Visioni", "sottocategoria": "Serie TV", "note": "I Soprano S6E8"},
     {"data": "2026-11-21", "categoria": "Casa", "sottocategoria": "Pulizie", "note": "Sistemato e pulito cucina e camera"},
     {"data": "2026-11-21", "categoria": "Palestra/Attività fisica", "sottocategoria": "Total", "note": "Scheda A: tapis 5min, mobilità, hip thrust 5kg per parte 12x3 (primo carico sui dischi dopo sei settimane a corpo libero), low row 40kg 12x4 uniformi, leg press 50kg 15x3 + 40kg 15x1, calf 50kg 15x3 + 40kg 15x1 (nessun dolore al piede stavolta), chest press 17,5kg 15x3, plank 30s x3 (primo al posto del crunch), lat machine 35kg 15x3 + 12x1"},
-    {"data": "2026-11-21", "categoria": "Videogiochi", "sottocategoria": "Avventura", "note": "Zelda - Ocarina of Time"}
+    {"data": "2026-11-21", "categoria": "Videogiochi", "sottocategoria": "Avventura", "note": "Zelda - Ocarina of Time"},
+    {"data": "2026-11-22", "categoria": "Casa", "sottocategoria": "Burocrazia", "note": "Prenotato appuntamento all'anagrafe (Parterre) per ristampa PIN/PUK CIE, 30/11 ore 10:20"}
   ]
 }
