@@ -102,7 +102,8 @@
       {
         "gruppo": "Commissioni",
         "items": [
-          {"nome": "Ritirare il Rosanta in farmacia", "fatto": false}
+          {"nome": "Ritirare il Rosanta in farmacia", "fatto": false},
+          {"nome": "Prenotare appuntamento al Comune per ristampa PIN/PUK della CIE (mia e della mia ragazza)", "fatto": false}
         ]
       },
       {
