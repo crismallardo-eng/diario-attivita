@@ -448,6 +448,10 @@
     {"data": "2026-11-22", "categoria": "Outdoor", "sottocategoria": "Concerti", "note": "Mary Halvorson"},
     {"data": "2026-11-22", "categoria": "Visioni", "sottocategoria": "Cartone", "note": "Gravity Falls S1E2"},
     {"data": "2026-11-22", "categoria": "Clarinetto", "sottocategoria": "Esercizi", "note": ""},
-    {"data": "2026-11-22", "categoria": "Letture", "sottocategoria": "Manga", "note": "Hunter x Hunter vol. 20"}
+    {"data": "2026-11-22", "categoria": "Letture", "sottocategoria": "Manga", "note": "Hunter x Hunter vol. 20"},
+    {"data": "2026-11-23", "categoria": "Clarinetto", "sottocategoria": "Lezione"},
+    {"data": "2026-11-23", "categoria": "Videogiochi", "sottocategoria": "Avventura", "note": "Zelda - Ocarina of Time"},
+    {"data": "2026-11-23", "categoria": "Letture", "sottocategoria": "Manga", "note": "Hunter x Hunter vol. 20 (finito)"},
+    {"data": "2026-11-23", "categoria": "Letture", "sottocategoria": "Manga", "note": "Hunter x Hunter vol. 21 (iniziato)"}
   ]
 }
