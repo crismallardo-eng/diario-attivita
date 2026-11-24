@@ -112,6 +112,12 @@
         "items": [
           {"nome": "Pagare tassa concorso Coadiutore – Conservatorio di Firenze (scad. ufficiale 30/11)", "fatto": false, "scadenza": "2026-11-29"}
         ]
+      },
+      {
+        "gruppo": "Clarinetto",
+        "items": [
+          {"nome": "Trovare aule/sale prove da affittare a ore per suonare il clarinetto", "fatto": false}
+        ]
       }
     ],
     "Luoghi": [
