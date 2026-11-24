@@ -116,7 +116,12 @@
       {
         "gruppo": "Clarinetto",
         "items": [
-          {"nome": "Trovare aule/sale prove da affittare a ore per suonare il clarinetto", "fatto": false}
+          {"nome": "Trovare aule/sale prove da affittare a ore per suonare il clarinetto", "fatto": false},
+          {"nome": "Sala: Play Loud! (Firenze) – solista 5€/h, prenotabile solo in giornata", "fatto": false},
+          {"nome": "Sala: Musikalmente (Firenze, via Montegrappa) – solista 7€/h, tel. 055 436 0644", "fatto": false},
+          {"nome": "Sala: Sound System Studio (Firenze) – solista 5€/h (prezzo da verificare)", "fatto": false},
+          {"nome": "Sala: Boomker Sound (Firenze) – 15€/h, disdetta 48h", "fatto": false},
+          {"nome": "Sala: All Music! (Firenze) – sale 20/40 mq, lun-ven 15-24 (chiedere tariffa solista)", "fatto": false}
         ]
       }
     ],
