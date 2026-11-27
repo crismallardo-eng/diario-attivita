@@ -38,6 +38,19 @@
         "items": [
           {"nome": "Kit manutenzione e pulizia clarinetto", "fatto": false}
         ]
+      },
+      {
+        "gruppo": "Macchina",
+        "items": [
+          {"nome": "Lampadine delle luci stop (non funzionano)", "fatto": false}
+        ]
+      },
+      {
+        "gruppo": "Scorte emergenza",
+        "items": [
+          {"nome": "Candele (per blackout)", "fatto": false},
+          {"nome": "Bottiglie d'acqua di scorta", "fatto": false}
+        ]
       }
     ],
     "Locali": [
@@ -102,7 +115,8 @@
       {
         "gruppo": "Commissioni",
         "items": [
-          {"nome": "Ritirare il Rosanta in farmacia", "fatto": false},
+          {"nome": "Ritirare il Rosanta in farmacia", "fatto": true, "data_fatto": "2026-11-27"},
+          {"nome": "Ritirare contanti (circa 250 €)", "fatto": false},
           {"nome": "Prenotare appuntamento al Comune per ristampa PIN/PUK della CIE (mia e della mia ragazza)", "fatto": true, "data_fatto": "2026-11-22"},
           {"nome": "Anagrafe Parterre (Cubo 1 - Q2), lun 30/11 ore 10:20: ristampa PIN/PUK CIE, andare insieme con entrambe le CIE (cod. Z9ZUVLOAJ8004COOWW2QQ)", "fatto": false, "scadenza": "2026-11-30"}
         ]
@@ -464,6 +478,7 @@
     {"data": "2026-11-23", "categoria": "Videogiochi", "sottocategoria": "Avventura", "note": "Zelda - Ocarina of Time"},
     {"data": "2026-11-23", "categoria": "Letture", "sottocategoria": "Manga", "note": "Hunter x Hunter vol. 20 (finito)"},
     {"data": "2026-11-23", "categoria": "Letture", "sottocategoria": "Manga", "note": "Hunter x Hunter vol. 21 (iniziato)"},
-    {"data": "2026-11-25", "categoria": "Palestra/Attività fisica", "sottocategoria": "Total", "note": "Scheda B: panca iperestensioni 10x3 (ritrovata, era stata ricollocata), shoulder press 12,5kg 12x4 carico nuovo pulito, leg curl 7,5kg 13x4, pull down 10kg 10x4 su macchina diversa (meno carrucole, più dura), leg extension 17kg 13x4 (sbloccata dopo tre mesi a 15kg), pulley orizzontale 37,5kg 15x3 messi per sbaglio poi 35kg 10x1 a cedimento, side plank 30s+20s per lato, pallof press 10x3 (primo), stretching"}
+    {"data": "2026-11-25", "categoria": "Palestra/Attività fisica", "sottocategoria": "Total", "note": "Scheda B: panca iperestensioni 10x3 (ritrovata, era stata ricollocata), shoulder press 12,5kg 12x4 carico nuovo pulito, leg curl 7,5kg 13x4, pull down 10kg 10x4 su macchina diversa (meno carrucole, più dura), leg extension 17kg 13x4 (sbloccata dopo tre mesi a 15kg), pulley orizzontale 37,5kg 15x3 messi per sbaglio poi 35kg 10x1 a cedimento, side plank 30s+20s per lato, pallof press 10x3 (primo), stretching"},
+    {"data": "2026-11-27", "categoria": "Casa", "sottocategoria": "Commissioni", "note": "Ritirato il Rosanta in farmacia"}
   ]
 }
